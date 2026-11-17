@@ -1,0 +1,565 @@
+<!doctype html><html lang="uz" data-root="" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Qoʻshish va tahrirlash - Anki hujjatlari</title><script>try{var t=localStorage.getItem("th");if(t)document.documentElement.dataset.theme=t}catch(e){}</script><link rel="stylesheet" href="style.css"></head><body><header class="top"><div class="bar"><div class="brand"><a href="index.html"><svg viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M16 3l3.2 7.4 8 .8-6 5.4 1.8 7.9L16 20.4 9 24.5l1.8-7.9-6-5.4 8-.8z"/></svg></a><span class="lang">Oʻzbekcha</span></div><div class="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" placeholder="Qidirish..." autocomplete="off"><kbd>Ctrl K</kbd><div class="res" id="res"></div></div><div class="acts"><button id="theme" title="Mavzu"></button><button id="menu" title="Menyu">☰</button></div></div><div class="tabs"><a class="on" href="index.html">Qoʻllanma</a><a href="https://docs.ankiweb.net/ankimobile" target="_blank" rel="noopener">AnkiMobile</a><a href="https://docs.ankiweb.net/faqs" target="_blank" rel="noopener">FAQ</a><a href="https://docs.ankiweb.net/addons" target="_blank" rel="noopener">Qoʻshimchalar</a><a href="https://docs.ankiweb.net/developers" target="_blank" rel="noopener">Dasturchilar</a><a href="https://docs.ankiweb.net/translators" target="_blank" rel="noopener">Tarjimonlar</a><a href="https://docs.ankiweb.net/releases" target="_blank" rel="noopener">Relizlar</a></div></header><div class="layout"><nav class="side"><a class="top" href="index.html"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z"/></svg><span>Bosh sahifa</span></a><a class="top" href="https://github.com/ankitects/anki" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2a10 10 0 00-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.200-3.4-1.200-.5-1.100-1.100-1.400-1.100-1.400-.9-.6.1-.6.1-.6 1 .1 1.500 1 1.500 1 .9 1.500 2.300 1.100 2.900.8.1-.7.4-1.100.6-1.400-2.200-.3-4.600-1.100-4.600-5 0-1.100.4-2 1-2.700-.1-.3-.4-1.300.1-2.700 0 0 .8-.3 2.800 1a9.600 9.600 0 015 0c1.900-1.300 2.800-1 2.800-1 .5 1.400.2 2.400.1 2.700.6.7 1 1.600 1 2.700 0 3.900-2.400 4.700-4.600 5 .4.3.7.9.7 1.900v2.800c0 .3.2.6.7.5A10 10 0 0012 2z"/></svg><span>GitHub</span></a><div class="sec">Kompyuter qoʻllanmasi</div><a href="intro.html">Kirish</a><a href="getting-started.html">Ishni boshlash</a><a href="background.html">Ilmiy asos</a><details><summary><a href="platform/intro.html">Platformalar haqida eslatmalar</a><i class="chev"></i></summary><div class="kids"><details><summary><a href="platform/windows/intro.html">Windows</a><i class="chev"></i></summary><div class="kids"><a href="platform/windows/installing.html">Anki&#x27;ni Windows&#x27;da oʻrnatish va yangilash</a><a href="platform/windows/installation-issues.html">Windows&#x27;da oʻrnatish muammolari</a><a href="platform/windows/startup-issues.html">Windows&#x27;da ishga tushirish muammolari</a><a href="platform/windows/display-issues.html">Windows&#x27;da koʻrinish (ekran) muammolari</a><a href="platform/windows/permission-problems.html">Windows&#x27;da ruxsat muammolari</a><a href="platform/windows/copy-and-paste.html">Nusxalash va joylashtirish muammolari</a><a href="platform/windows/text-size.html">Matn oʻlchami</a></div></details><details><summary><a href="platform/mac/intro.html">macOS</a><i class="chev"></i></summary><div class="kids"><a href="platform/mac/installing.html">Anki&#x27;ni macOS&#x27;da oʻrnatish va yangilash</a><a href="platform/mac/display-issues.html">macOS&#x27;da koʻrinish (ekran) muammolari</a></div></details><details><summary><a href="platform/linux/intro.html">Linux</a><i class="chev"></i></summary><div class="kids"><a href="platform/linux/installing.html">Anki&#x27;ni Linux&#x27;da oʻrnatish va yangilash</a><a href="platform/linux/missing-libraries.html">Yetishmayotgan kutubxonalar</a><a href="platform/linux/display-issues.html">Linux&#x27;da koʻrinish (ekran) muammolari</a><a href="platform/linux/blank-window.html">Boʻm-boʻsh asosiy oyna</a><a href="platform/linux/distro-packages.html">Linux distributivlari tarqatadigan paketlar</a><a href="platform/linux/gtk-theme.html">Anki Gnome/Linux&#x27;da GTK mavzusini (theme) qabul qilmayapti</a><a href="platform/linux/wayland.html">Wayland</a><a href="platform/linux/input-methods.html">Linux&#x27;da kiritish usullari</a></div></details></div></details><a href="getting-help.html">Yordam olish</a><a href="studying.html">Oʻrganish</a><a class="cur" href="editing.html">Qoʻshish va tahrirlash</a><details><summary><a href="templates/intro.html">Karta shablonlari</a><i class="chev"></i></summary><div class="kids"><a href="templates/fields.html">Maydon almashtirishlari</a><a href="templates/generation.html">Karta yaratish</a><a href="templates/styling.html">Bezak va HTML</a><a href="templates/errors.html">Tekshiruvlar va xatolar</a></div></details><a href="preferences.html">Sozlamalar</a><a href="deck-options.html">Toʻplam sozlamalari</a><a href="syncing.html">AnkiWeb bilan sinxronlash</a><a href="profiles.html">Profillar</a><a href="browsing.html">Koʻrib chiqish (Browse)</a><a href="filtered-decks.html">Filtrlangan toʻplamlar va imtihonga shoshilinch tayyorlanish</a><a href="searching.html">Qidiruv</a><details><summary><a href="importing/intro.html">Import qilish</a><i class="chev"></i></summary><div class="kids"><a href="importing/text-files.html">Matnli fayllar</a><a href="importing/packaged-decks.html">Paketlangan toʻplamlar</a></div></details><a href="exporting.html">Eksport qilish</a><a href="backups.html">Zaxira nusxalar</a><a href="files.html">Fayllar va kolleksiyani boshqarish</a><a href="stats.html">Karta haqida maʼlumot, grafiklar va statistika</a><a href="media.html">Media</a><a href="math.html">Matematika va belgilar</a><a href="leeches.html">Leech kartalar</a><a href="addons.html">Qoʻshimchalar (Add-ons)</a><a href="troubleshooting.html">Muammolarni bartaraf etish</a><a href="sync-server.html">Oʻz serveringizdagi sinxronlash serveri</a><a href="misc.html">Turli mavzular</a><a href="contributing.html">Hissa qoʻshish</a><a href="resources.html">Resurslar</a></nav><main><div class="doc"><div class="crumb">Kompyuter qoʻllanmasi</div><h1>Qoʻshish va tahrirlash</h1><h2 id="sec-1">Karta va yozuvlar qoʻshish</h2>
+<p><a id="adding-cards-and-notes"></a></p>
+<p><a href="getting-started.html">Asoslardan</a> esingizda boʻlsa, Anki'da biz kartalarni emas,
+yozuvlarni qoʻshamiz, kartalarni esa Anki oʻzi yaratadi. <a href="studying.html#decks">Asosiy oynada</a>
+<strong>Add</strong> (Qoʻshish) tugmasini bosing, Add Notes (Yozuv qoʻshish) oynasi paydo
+boʻladi.</p>
+<p><img src="media/add_screen.png" alt="Qoʻshish oynasi" /></p>
+<p>Oynaning yuqori chap tomonida joriy <a href="getting-started.html#note-types">yozuv turi</a>
+koʻrsatilgan. Unda &quot;Basic&quot; deb yozilmagan boʻlsa, ulashilgan toʻplamni yuklab
+olganingizda baʼzi yozuv turlari qoʻshilgan boʻlishi mumkin. Quyidagi matn
+&quot;Basic&quot; tanlangan deb hisoblaydi.</p>
+<p>Oynaning yuqori oʻng tomonida kartalar qoʻshiladigan <a href="getting-started.html#decks">toʻplam</a>
+koʻrsatilgan. Kartalarni yangi toʻplamga qoʻshmoqchi boʻlsangiz, toʻplam nomi
+tugmasini bosib, keyin <strong>Add</strong> (Qoʻshish) ni bosing.</p>
+<p>Yozuv turining pastida bir nechta tugma va &quot;Front&quot; (Old tomon) hamda &quot;Back&quot;
+(Orqa tomon) deb yozilgan maydonlar koʻrinadi. Front va Back <a href="getting-started.html#notes--fields">maydonlar</a>
+deb ataladi va ularni yuqoridagi &quot;Fields…​&quot; (Maydonlar…) tugmasini bosib
+qoʻshishingiz, oʻchirishingiz va nomini oʻzgartirishingiz mumkin.</p>
+<p>Maydonlarning pastida &quot;<strong>tags</strong>&quot; (teglar) deb yozilgan yana bir joy bor.
+Teglar — yozuvlaringizga biriktiradigan yorliqlar, ular yozuvlarni tartibga
+solish va topishni osonlashtiradi. Teglarni boʻsh qoldirishingiz yoki bir
+nechtasini qoʻshishingiz mumkin. Teglar probel bilan ajratiladi. Teglar
+joyida quyidagi yozuv boʻlsa:</p>
+<pre><code class="language-text">    vocab check_with_tutor
+</code></pre>
+<p>…​qoʻshadigan yozuvingiz ikkita tegga ega boʻladi.</p>
+<p>Old va orqa tomonga matn kiritib boʻlgach, yozuvni kolleksiyangizga qoʻshish
+uchun <strong>Add</strong> (Qoʻshish) tugmasini bosing yoki <kbd>Ctrl</kbd>+<kbd>Enter</kbd>
+(Mac'da <kbd>Command</kbd>+<kbd>Enter</kbd>) tugmalarini bosing. Shunda karta ham
+yaratilib, siz tanlagan toʻplamga joylanadi. Qoʻshgan kartangizni
+tahrirlamoqchi boʻlsangiz, tarix (history) tugmasini bosib, yaqinda
+qoʻshilgan kartani <a href="browsing.html">Browse oynasida</a> qidirishingiz mumkin.</p>
+<p>Yozuv turi bilan maydonlar orasidagi tugmalar haqida batafsil maʼlumot uchun
+<a href="editing.html">tahrirlagich</a> boʻlimiga qarang.</p>
+<h3 id="sec-2">Takrorlanishni tekshirish</h3>
+<p><a id="duplicate-check"></a></p>
+<p>Anki birinchi maydonning noyobligini tekshiradi, shuning uchun, masalan, Front
+maydoni &quot;apple&quot; boʻlgan ikkita karta kiritsangiz, sizni ogohlantiradi.
+Noyoblikni tekshirish joriy yozuv turi bilan cheklangan, shuning uchun bir
+nechta til oʻrganayotgan boʻlsangiz va har bir til uchun alohida yozuv turi
+ishlatsangiz, Front maydoni bir xil boʻlgan ikkita karta takroriy deb
+hisoblanmaydi.</p>
+<p>Anki samaradorlik sababli boshqa maydonlardagi takrorlarni avtomatik
+tekshirmaydi, lekin Browse oynasida &quot;Find Duplicates&quot; (Takrorlarni topish)
+funksiyasi bor, uni vaqti-vaqti bilan ishga tushirib turishingiz mumkin.</p>
+<h3 id="sec-3">Samarali oʻrganish</h3>
+<p><a id="effective-learning"></a></p>
+<p>Turli odamlar turlicha takrorlashni yoqtiradi, lekin yodda tutish kerak boʻlgan
+umumiy gʻoyalar bor. Ajoyib kirish sifatida SuperMemo saytidagi
+<a href="https://super-memory.com/articles/20rules.htm" class="ext">ushbu maqolani</a> tavsiya
+qilamiz. Xususan:</p>
+<ul>
+<li>
+<p><strong>Oddiy qiling</strong>: kartalaringiz qancha qisqa boʻlsa, ularni takrorlash
+shuncha oson. &quot;Har ehtimolga qarshi&quot; deb koʻp maʼlumot kiritgingiz kelishi
+mumkin, lekin bu takrorlashni tezda zerikarli qilib qoʻyadi.</p>
+</li>
+<li>
+<p><strong>Tushunmasdan yodlamang</strong>: til oʻrganayotgan boʻlsangiz, soʻzlarning katta
+roʻyxatlaridan qoching. Tillarni oʻrganishning eng yaxshi yoʻli — kontekstda,
+yaʼni soʻzlarni gap ichida koʻrib oʻrganish. Xuddi shunday, kompyuter kursini
+oʻrganayotgan boʻlsangiz, qisqartmalarning katta toʻdasini yodlashga urinsangiz,
+oldinga siljish juda qiyin boʻladi. Lekin qisqartmalar ortidagi tushunchalarni
+anglashga vaqt ajratsangiz, qisqartmalarni oʻrganish ancha osonlashadi.</p>
+</li>
+</ul>
+<h2 id="sec-4">Yozuv turi qoʻshish</h2>
+<p><a id="adding-a-note-type"></a></p>
+<p>Har tomonida faqat bitta soʻz yoki ibora boʻlgan oddiy kartalar uchun asosiy
+yozuv turlari yetarli, lekin old yoki orqa tomonga bir nechta maʼlumot
+kiritishni xohlab qolsangiz, bu maʼlumotni koʻproq maydonga ajratgan yaxshi.</p>
+<p>&quot;Menga faqat bitta karta kerak-ku, nega audio, rasm, maslahat va tarjimani
+Front maydoniga qoʻshib qoʻya qolmayman?&quot; deb oʻylashingiz mumkin. Shunday
+qilishni xohlasangiz, mayli. Lekin bu usulning kamchiligi shundaki, barcha
+maʼlumot bir-biriga yopishib qoladi. Kartalarni maslahat boʻyicha saralamoqchi
+boʻlsangiz, buni qila olmaysiz, chunki u boshqa mazmun bilan aralashib ketgan.
+Shuningdek, audioni old tomondan orqa tomonga koʻchirish kabi ishlarni har
+bir yozuv uchun qoʻlda nusxalab-joylashtirmasdan qila olmaysiz. Mazmunni alohida
+maydonlarda saqlasangiz, kartalaringiz koʻrinishini keyinchalik oʻzgartirish
+ancha osonlashadi.</p>
+<p>Yangi turdagi yozuv yaratish uchun Anki'ning asosiy oynasidan <strong>Tools &gt;
+Manage Note Types</strong> (Asboblar &gt; Yozuv turlarini boshqarish) ni tanlang.
+Keyin yangi yozuv turi qoʻshish uchun <strong>Add</strong> (Qoʻshish) ni bosing. Endi yangi
+turni qaysi yozuv turi asosida yaratishni tanlaydigan yana bir oyna koʻrinadi.
+&quot;Add&quot; yangi turni Anki bilan birga kelgan turlardan biri asosida yaratishni
+bildiradi. &quot;Clone&quot; (Nusxalash) yangi turni kolleksiyangizda allaqachon
+mavjud turlardan biri asosida yaratishni bildiradi. Masalan, fransuz tili
+soʻzlari uchun tur yaratgan boʻlsangiz, nemis tili soʻzlari uchun tur yaratishda
+uni nusxalashni xohlashingiz mumkin.</p>
+<p>OK ni bosgach, sizdan yangi tur nomi soʻraladi. Bu yerda oʻrganayotgan
+mavzuingiz yaxshi tanlov: &quot;Japanese&quot;, &quot;Trivia&quot; va shunga oʻxshash nomlar. Nom
+tanlagach, Note Types (Yozuv turlari) oynasini yoping, qoʻshish oynasiga
+qaytasiz.</p>
+<h2 id="sec-5">Maydonlarni sozlash</h2>
+<p><a id="customizing-fields"></a></p>
+<p>Maydonlarni sozlash uchun yozuv qoʻshayotganda yoki tahrirlayotganda, yoxud
+Manage Note Types oynasida yozuv turi tanlangan paytda <strong>Fields...</strong>
+(Maydonlar...) tugmasini bosing.</p>
+<p><img src="media/fields.png" alt="Maydonlar" /></p>
+<p>Tegishli tugmalarni bosib, maydonlarni qoʻshishingiz, oʻchirishingiz yoki
+nomini oʻzgartirishingiz mumkin.</p>
+<p>Maydonlar ushbu oynada va yozuv qoʻshish oynasida koʻrinadigan tartibni
+oʻzgartirish uchun joyini almashtirish (reposition) tugmasidan foydalanishingiz
+mumkin, u maydon egallashi kerak boʻlgan raqamli oʻrinni soʻraydi. Maydonni
+yangi birinchi maydon qilmoqchi boʻlsangiz, &quot;1&quot; deb kiriting.</p>
+<p>Yoki maydon nomlarini sudrab tashlab (drag and drop) ham tartibini
+oʻzgartirishingiz mumkin. Buning uchun sichqoncha yoki barmogʻingiz bilan
+maydonni kerakli oʻringa sudrang. Koʻrsatkich maydon qayerga koʻchirilishini
+koʻrsatib turadi.</p>
+<p>Maydon nomi sifatida &quot;Tags&quot;, &quot;Type&quot;, &quot;Deck&quot;, &quot;Card&quot; yoki &quot;FrontSide&quot; ni
+ishlatmang, chunki ular <a href="templates/fields.html#special-fields">maxsus maydonlar</a>
+va toʻgʻri ishlamaydi.</p>
+<p>Ekranning pastidagi opsiyalar kartalarni qoʻshish va tahrirlashda ishlatiladigan
+maydonlarning turli xususiyatlarini oʻzgartirish imkonini beradi. Bu takrorlash
+paytida kartalaringizda nima koʻrinishini sozlaydigan joy <em>emas</em>; buning uchun
+<a href="templates/intro.html">shablonlar</a> boʻlimiga qarang.</p>
+<ul>
+<li>
+<p><strong>Editing Font</strong> (Tahrirlash shrifti) yozuvlarni tahrirlashda ishlatiladigan
+shrift va oʻlchamni sozlash imkonini beradi. Bu muhim boʻlmagan maʼlumotni
+kichikroq qilish yoki oʻqish qiyin boʻlgan lotin boʻlmagan harflarni
+kattalashtirish uchun foydali. Bu yerda qilgan oʻzgarishlaringiz kartalarning
+takrorlash paytidagi koʻrinishiga taʼsir qilmaydi: buning uchun
+<a href="templates/intro.html">shablonlar</a> boʻlimiga qarang. Biroq &quot;javobni yozib kiritish&quot;
+funksiyasini yoqqan boʻlsangiz, yozadigan matningiz shu yerda belgilangan
+shrift oʻlchamidan foydalanadi. (Javob yozayotganda shrift turini oʻzgartirish
+haqida <a href="templates/fields.html#checking-your-answer">javobingizni tekshirish</a>
+boʻlimiga qarang.)</p>
+</li>
+<li>
+<p><strong>Sort by this field…​</strong> (Shu maydon boʻyicha saralash…) Anki'ga bu maydonni
+Browse oynasidagi Sort Field (Saralash maydoni) ustunida koʻrsatishni
+buyuradi. Buni kartalarni shu maydon boʻyicha saralash uchun ishlatishingiz
+mumkin. Bir vaqtda faqat bitta maydon saralash maydoni boʻla oladi.</p>
+</li>
+<li>
+<p><strong>Reverse text direction</strong> (Matn yoʻnalishini teskari qilish) arab yoki ivrit
+kabi matnni oʻngdan chapga (RTL) koʻrsatadigan tillarni oʻrganayotgan
+boʻlsangiz foydali. Bu sozlama hozircha faqat tahrirlashni boshqaradi; matn
+takrorlash paytida toʻgʻri koʻrinishi uchun <a href="templates/styling.html#text-direction">shablonni</a>
+sozlashingiz kerak boʻladi.</p>
+</li>
+<li>
+<p><strong>Use HTML editor by default</strong> (Standart holatda HTML tahrirlagichdan
+foydalanish) maydonlarni toʻgʻridan-toʻgʻri HTML'da tahrirlashni
+yoqtirsangiz foydali.</p>
+</li>
+<li>
+<p><strong>Collapse by default</strong> (Standart holatda yigʻib qoʻyish). Maydonlarni
+yigʻish/yoyish mumkin. Animatsiyani <a href="preferences.html">sozlamalarda</a> oʻchirib
+qoʻyish mumkin.</p>
+</li>
+<li>
+<p><strong>Exclude from unqualified searches (slower)</strong> (Aniqlanmagan qidiruvlardan
+chiqarib tashlash (sekinroq)) maʼlum maydon mazmuni aniqlanmagan
+<a href="searching.html#limiting-to-a-field">(muayyan maydon bilan cheklanmagan)</a>
+qidiruvlarda chiqmasligini xohlasangiz ishlatiladi.</p>
+</li>
+</ul>
+<p>Maydonlarni qoʻshganingizdan soʻng, ularni kartalaringizning old yoki orqa
+tomoniga qoʻshishni xohlaysiz. Bu haqida batafsil maʼlumot uchun
+<a href="templates/intro.html">shablonlar</a> boʻlimiga qarang.</p>
+<h2 id="sec-6">Toʻplam / yozuv turini oʻzgartirish</h2>
+<p><a id="changing-deck--note-type"></a></p>
+<p>Qoʻshayotganda yozuv turini oʻzgartirish uchun yuqori chap tugmani, toʻplamni
+oʻzgartirish uchun yuqori oʻng tugmani bosishingiz mumkin. Ochiladigan oyna
+toʻplam yoki yozuv turini tanlashga imkon beribgina qolmay, yangi toʻplamlar
+qoʻshish yoki yozuv turlarini boshqarishga ham imkon beradi.</p>
+<h2 id="sec-7">Mazmunni tartibga solish</h2>
+<p><a id="organizing-content"></a></p>
+<h3 id="sec-8">Toʻplamlardan toʻgʻri foydalanish</h3>
+<p><a id="using-decks-appropriately"></a></p>
+<p><a href="getting-started.html#decks">Toʻplamlar</a> mazmunni alohida oʻrganmoqchi boʻlgan keng
+kategoriyalarga ajratish uchun moʻljallangan, masalan, ingliz tili, geografiya
+va hokazo. Mazmunni tartibda saqlash uchun &quot;mening geografiya kitobim, 1-bob&quot;
+yoki &quot;ovqat fe'llari&quot; kabi koʻplab mayda toʻplamlar yaratishni xohlashingiz
+mumkin, lekin buni quyidagi sabablarga koʻra tavsiya etmaymiz:</p>
+<ul>
+<li>
+<p>Koʻplab mayda toʻplamlar kartalarni tanish tartibda koʻrib qolishingizga
+sabab boʻlishi mumkin. Eski rejalashtiruvchi (scheduler) versiyalarida yangi
+kartalar faqat toʻplamlar tartibida kiritiladi. Agar har bir toʻplamni
+navbatma-navbat bosib chiqmoqchi boʻlsangiz (bu sekin), &quot;1-bob&quot; yoki &quot;ovqat
+fe'llari&quot; takrorlashlarini birin-ketin koʻrasiz. Bu kartalarga javob berishni
+osonlashtiradi, chunki javobni kontekstdan taxmin qilasiz, bu esa zaifroq
+xotiraga olib keladi. Soʻz yoki iborani Anki'dan tashqarida eslash kerak
+boʻlganda, sizga har doim avval tegishli mazmunni koʻrsatishmaydi!</p>
+</li>
+<li>
+<p>Anki'ning avvalgi versiyalaridagiga qaraganda kamroq muammo boʻlsa-da,
+yuzlab toʻplam qoʻshish sekinlashuvlarga olib kelishi mumkin, minglab
+elementli juda katta toʻplam daraxtlari esa Anki 2.1.50 dan oldingi
+versiyalarda toʻplamlar roʻyxatining koʻrinishini buzib qoʻyishi mumkin.</p>
+</li>
+</ul>
+<h3 id="sec-9">Teglardan foydalanish</h3>
+<p><a id="using-tags"></a></p>
+<p>Koʻplab mayda toʻplamlar yaratish oʻrniga, mazmunni tasniflash uchun teglar
+va/yoki maydonlardan foydalangan yaxshi. Teglar qidiruv natijalarini
+yaxshilash, aniq mazmunni topish va kolleksiyangizni tartibda saqlash uchun
+foydali usul. Teglardan va belgilardan (flags) samarali foydalanishning koʻp
+usullari bor, ularni qanday ishlatishni oldindan oʻylab qoʻyish sizga eng
+mos keladigan usulni tanlashga yordam beradi.</p>
+<p>Baʼzilar kartalarini tartibda saqlash uchun toʻplam va ichki toʻplamlardan
+foydalanishni yoqtiradi, lekin buning uchun teglar toʻplamlarga nisbatan katta
+afzallikka ega: bitta yozuvga bir nechta teg qoʻshish mumkin, bitta karta esa
+faqat bitta toʻplamga tegishli boʻla oladi. Bu teglarni aksar hollarda
+toʻplamlarga qaraganda kuchliroq va moslashuvchan tasniflash tizimiga
+aylantiradi. Teglarni ham <a href="getting-started.html#decks">toʻplamlardagi kabi</a> daraxt
+shaklida tartibga solishingiz mumkin.</p>
+<p>Masalan, &quot;ovqat fe'llari&quot; toʻplamini yaratish oʻrniga, bu kartalarni asosiy
+til oʻrganish toʻplamingizga qoʻshib, &quot;food&quot; va &quot;verb&quot; teglari bilan belgilashingiz
+mumkin. Har bir kartada bir nechta teg boʻlishi mumkinligi uchun barcha
+fe'llarni, barcha ovqatga oid soʻzlarni yoki ovqatga oid barcha fe'llarni
+<a href="searching.html#tags-decks-cards-and-notes">qidirish</a> kabi ishlarni qila olasiz.</p>
+<p>Teglarni Edit (Tahrirlash) oynasidan va <a href="browsing.html">Browse oynasidan</a>
+qoʻshishingiz mumkin, shuningdek, u yerda teglarni oʻchirish, nomini
+oʻzgartirish yoki tartibga solish ham mumkin. Teglar <a href="getting-started.html#notes--fields">yozuv</a>
+darajasida ishlashini unutmang: qardosh kartalari bor kartaga teg qoʻysangiz,
+barcha qardosh kartalar ham shu teg bilan belgilanadi. Faqat bitta kartaga teg
+qoʻyish, uning qardoshlariga esa qoʻymaslik kerak boʻlsa, belgilardan
+(flags) foydalanishni oʻylab koʻring.</p>
+<h3 id="sec-10">Belgilardan foydalanish</h3>
+<p><a id="using-flags"></a></p>
+<p>Belgilar (flags) teglarga oʻxshaydi, lekin ular oʻrganish paytida takrorlash
+oynasida, ekranning yuqori oʻng qismida rangli bayroqcha belgisi bilan
+koʻrinadi. Belgilangan kartalarni Browse oynasida qidirishingiz, belgilar
+nomini Browse oynasidan oʻzgartirishingiz va belgilangan kartalardan filtrlangan
+toʻplamlar yaratishingiz ham mumkin, lekin teglardan farqli ravishda bitta
+kartada bir vaqtda faqat bitta belgi boʻla oladi. Yana bir muhim farq: belgilar
+<a href="getting-started.html#cards">karta</a> darajasida ishlaydi, shuning uchun qardosh
+kartalari bor kartani belgilash uning qardoshlariga taʼsir qilmaydi.</p>
+<p>Kartalarni toʻgʻridan-toʻgʻri takrorlash rejimida belgilashingiz / belgisini
+olib tashlashingiz mumkin (Windows'da</p>
+<p><kbd>Ctrl</kbd>+<kbd>1-7</kbd>, Mac'da <kbd>Cmd</kbd>+<kbd>1-7</kbd> tugmalarini
+bosib) hamda <a href="browsing.html">Browse oynasidan.</a></p>
+<h3 id="sec-11">&quot;Marked&quot; tegi</h3>
+<p><a id="the-marked-tag"></a></p>
+<p>Anki &quot;marked&quot; (belgilangan) nomli tegni alohida ishlatadi. Takrorlash va Browse
+oynalarida &quot;marked&quot; tegini qoʻshish va olib tashlash opsiyalari bor. Joriy
+kartaning yozuvida shu teg boʻlsa, oʻrganish oynasida yulduzcha koʻrsatiladi.
+Yozuvi belgilangan kartalar Browse oynasida boshqa rangda koʻrsatiladi.</p>
+<p>Eslatma: belgilash (marking) asosan Anki'ning eski versiyalari bilan
+moslik uchun qoldirilgan; koʻpchilik foydalanuvchilar buning oʻrniga
+<a href="editing.html#using-flags">belgilar (flags)</a> dan foydalanishni xohlaydi.</p>
+<h3 id="sec-12">Maydonlardan foydalanish</h3>
+<p><a id="using-fields"></a></p>
+<p>Juda tartibli boʻlishni yoqtiradiganlar mazmunni tasniflash uchun yozuvlariga
+&quot;book&quot; (kitob), &quot;page&quot; (sahifa) va shunga oʻxshash maydonlar qoʻshishi mumkin.
+Anki muayyan maydonlar ichida qidirishni qoʻllab-quvvatlaydi, yaʼni
+<code>&quot;book:my book&quot; page:63</code> kabi qidiruv qilib, kerakli narsangizni darhol
+topishingiz mumkin.</p>
+<h3 id="sec-13">Maxsus oʻrganish va filtrlangan toʻplamlar</h3>
+<p><a id="custom-study-and-filtered-decks"></a></p>
+<p><a href="filtered-decks.html">Maxsus oʻrganish va filtrlangan toʻplamlar</a> yordamida qidiruv
+soʻzlaridan vaqtinchalik toʻplamlar yaratishingiz mumkin. Bu mazmunni koʻp
+vaqt bitta toʻplamda aralash holda takrorlash (eng yaxshi xotira uchun),
+lekin test oldidan kabi muayyan materialga eʼtibor qaratish kerak boʻlganda
+vaqtinchalik toʻplamlar yaratish imkonini beradi. Umumiy qoida: biror mazmunni
+doim alohida oʻrganishni xohlasangiz, u oddiy toʻplamda boʻlishi kerak; uni
+faqat ba'zan alohida oʻrganish kerak boʻlsa (test uchun, orqada qolganda va
+hokazo), teglar, belgilar, belgilangan kartalar yoki maydonlardan yaratilgan
+filtrlangan toʻplamlar yaxshiroq.</p>
+<h2 id="sec-14">Tahrirlash imkoniyatlari</h2>
+<p><a id="editing-features"></a></p>
+<p>Tahrirlagich <a href="editing.html">yozuv qoʻshganda</a>, takrorlash paytida <a href="studying.html#editing-and-more">yozuvni tahrirlaganda</a>
+yoki <a href="browsing.html">Browse oynasida koʻrib chiqqanda</a> koʻrsatiladi.</p>
+<p><img src="media/editor_icons.png" alt="Tahrirlagich belgilari" /></p>
+<p>Yuqori chap tomonda ikkita tugma bor, ular <a href="editing.html#customizing-fields">maydonlar</a>
+va <a href="templates/intro.html">kartalar</a> oynalarini ochadi.</p>
+<p>Oʻng tomonda formatlashni boshqaradigan tugmalar bor. Qalin, kursiv va
+tagiga chizilgan matn matn muharrirlaridagi kabi ishlaydi. Keyingi ikki tugma
+matnni pastki yoki yuqori indeksga oʻtkazadi, bu H<sub>2</sub>O kabi kimyoviy
+birikmalar yoki x<sup>2</sup> kabi oddiy matematik tenglamalar uchun foydali.
+Undan keyin matn rangini oʻzgartiradigan ikkita tugma bor.</p>
+<p>Oʻchirgich (rubber eraser) tugmasi tanlangan matndagi barcha formatlashni
+tozalaydi, jumladan matn rangi, qalin yoki yoʻqligi va hokazo. Keyingi uch
+tugma roʻyxatlar yaratish, matnni tekislash va matn chekinishi uchun.</p>
+<p>Qisqich (paper-clip) tugmasi yordamida kompyuteringizning qattiq diskidan
+audio, rasm va videolarni tanlab, yozuvlaringizga biriktirishingiz mumkin.
+Yoki mediani kompyuteringizning almashish buferiga nusxalab (masalan, internetdagi
+rasmni sichqonchaning oʻng tugmasi bilan bosib, &quot;Copy Image&quot; ni tanlab) kerakli
+maydonga joylashtirishingiz mumkin. Media haqida batafsil maʼlumot uchun
+<a href="media.html">media</a> boʻlimiga qarang.</p>
+<p>Mikrofon belgisi kompyuteringiz mikrofonidan yozib olish va yozuvni yozuvga
+biriktirish imkonini beradi.</p>
+<p>Fx tugmasi yozuvlaringizga MathJax yoki <a href="math.html">LaTeX</a> qoʻshish uchun
+tezkor tugmalarni koʻrsatadi.</p>
+<p>[…​] tugmalari cloze yozuv turi tanlanganda koʻrinadi.
+<img src="media/cloze_icons.png" alt="Cloze belgilari" /></p>
+<p><code>&lt;/&gt;</code> tugmasi maydonning asosidagi HTML'ni tahrirlash imkonini beradi.
+<img src="media/html_icon.png" alt="HTML belgisi" /></p>
+<p>Anki 2.1.45 va undan yangi versiyalar doimiy (sticky) maydonlarni
+toʻgʻridan-toʻgʻri tahrirlash ekranidan sozlashni qoʻllab-quvvatlaydi.
+Maydonning oʻng tomonidagi pin (qadash) belgisini bossangiz, yozuv qoʻshilgandan
+keyin Anki maydon mazmunini tozalamaydi. Bir xil mazmunni bir nechta
+yozuvga kiritayotgan boʻlsangiz, bu foydali boʻlishi mumkin. Oldingi Anki
+versiyalarida doimiy maydonlar Fields (Maydonlar) oynasidan yoqilgan.</p>
+<p><img src="media/Pin_icon.png" alt="Pin belgisi" /></p>
+<p>Tugmalarning koʻpchiligida tezkor tugmalar bor. Tezkor tugmani koʻrish uchun
+sichqoncha koʻrsatkichini tugma ustiga olib borishingiz mumkin.</p>
+<p>Matnni joylashtirayotganda Anki standart holatda formatlashning koʻp qismini
+saqlaydi. Joylashtirayotganda <kbd>Shift</kbd> tugmasini bosib tursangiz,
+Anki formatlashning koʻp qismini olib tashlaydi. Preferences (Sozlamalar)
+ostida &quot;Paste without shift key strips formatting&quot; (Shift tugmasisiz
+joylashtirganda formatlash olib tashlansin) opsiyasini yoqib-oʻchirib,
+standart xulq-atvorni oʻzgartirishingiz mumkin.</p>
+<h2 id="sec-15">Cloze deletion (matnning bir qismini yashirish)</h2>
+<p><a id="cloze-deletion"></a></p>
+<p><em>Cloze deletion</em> — gapdagi bir yoki bir nechta soʻzni yashirish jarayoni.
+Masalan, sizda quyidagi gap boʻlsa:</p>
+<pre><code class="language-text">    Canberra was founded in 1913.
+</code></pre>
+<p>…​va &quot;1913&quot; ustida cloze deletion yaratsangiz, gap quyidagicha boʻladi:</p>
+<pre><code class="language-text">    Canberra was founded in [...].
+</code></pre>
+<p>Ba'zan bunday olib tashlangan qismlar &quot;yopilgan&quot; (occluded) deyiladi.</p>
+<p>Cloze deletion'dan nima uchun foydalanishni xohlashingiz haqida batafsil
+maʼlumot uchun <a href="https://super-memory.com/articles/20rules.htm" class="ext">bu yerdagi</a>
+5-qoidaga qarang.</p>
+<p>Anki cloze'larni yaratishni osonlashtirish uchun maxsus cloze deletion yozuv
+turini taqdim etadi. Cloze deletion yozuvini yaratish uchun Cloze yozuv turini
+tanlang va &quot;Text&quot; maydoniga matn kiriting. Keyin yashirmoqchi boʻlgan matn
+ustida sichqonchani sudrab uni tanlang va […​] tugmasini bosing. Anki matnni
+quyidagi bilan almashtiradi:</p>
+<pre><code class="language-text">    Canberra was founded in {{c1::1913}}.
+</code></pre>
+<p>&quot;c1&quot; qismi gapda bitta cloze deletion yaratganingizni bildiradi. Xohlasangiz,
+bir nechta yashirish yaratishingiz mumkin. Masalan, Canberra'ni tanlab, yana
+[…​] ni bossangiz, matn endi quyidagicha koʻrinadi:</p>
+<pre><code class="language-text">    {{c2::Canberra}} was founded in {{c1::1913}}.
+</code></pre>
+<p>Yuqoridagi yozuvni qoʻshganingizda Anki ikkita karta yaratadi. Birinchi karta
+shuni koʻrsatadi:</p>
+<pre><code class="language-text">    Canberra was founded in [...].
+</code></pre>
+<p>…​savol tomonida, javob tomonida esa toʻliq gap. Ikkinchi kartaning savol
+tomonida quyidagi boʻladi:</p>
+<pre><code class="language-text">    [...] was founded in 1913.
+</code></pre>
+<p>Shuningdek, bir kartada bir nechta qismni ham yashirishingiz mumkin. Yuqoridagi
+misolda c2 ni c1 ga oʻzgartirsangiz, faqat bitta karta yaratiladi va unda
+Canberra ham, 1913 ham yashirilgan boʻladi. Cloze yaratayotganda <kbd>Alt</kbd>
+(Mac'da <kbd>Option</kbd>) tugmasini bosib tursangiz, Anki raqamni oshirish
+oʻrniga avtomatik ravishda bir xil raqamdan foydalanadi.</p>
+<p>Cloze deletion soʻz chegaralariga toʻgʻri kelishi shart emas, shuning uchun
+yuqoridagi misolda &quot;Canberra&quot; oʻrniga &quot;anberra&quot; ni tanlasangiz, savol &quot;C[…​]
+was founded in 1913&quot; koʻrinishida chiqadi va bu sizga maslahat boʻladi.</p>
+<p>Shuningdek, matnga mos kelmaydigan maslahatlar ham berishingiz mumkin. Asl
+gapni quyidagi bilan almashtirsangiz:</p>
+<pre><code class="language-text">    Canberra::city was founded in 1913
+</code></pre>
+<p>…​va &quot;Canberra::city&quot; ni tanlab […​] ni bossangiz, Anki ikki nuqtadan keyingi
+matnni maslahat deb hisoblab, matnni quyidagicha oʻzgartiradi:</p>
+<pre><code class="language-text">    {{c1::Canberra::city}} was founded in 1913
+</code></pre>
+<p>Karta takrorlash uchun chiqqanda u quyidagicha koʻrinadi:</p>
+<pre><code class="language-text">    [city] was founded in 1913.
+</code></pre>
+<p>Cloze deletion'ni toʻgʻri yozib kiritish qobiliyatingizni sinash haqida maʼlumot
+uchun <a href="templates/fields.html#checking-your-answer">javoblarni yozib kiritish</a>
+boʻlimiga qarang.</p>
+<p>2.1.56 versiyasidan boshlab ichma-ich (nested) cloze deletion'lar
+qoʻllab-quvvatlanadi. Masalan, quyidagisi yaroqli:</p>
+<pre><code class="language-text">    {{c1::Canberra was {{c2::founded}}}} in 1913
+</code></pre>
+<p>Ichki cloze tashqisining ichida butunlay joylashgan. Qisman ustma-ust tushish
+qoʻllab-quvvatlanmaydi, masalan:</p>
+<pre><code class="language-text">    [...] founded in 1913 -&gt; Canberra was
+    Canberra [...] in 1913 -&gt; was founded
+</code></pre>
+<p>bunda &quot;was&quot; soʻzi ikkala yashirishda ham ishtirok etadi.</p>
+<p>Joriy amalga oshirish faqat cheklangan miqdordagi ichma-ich joylashuvni
+qoʻllay oladi. Anki 24.11 da bu 3 daraja. Boshqa versiyalarda chegara taxminan
+8, lekin chegaraga yaqinlashganda Anki sekinlashishi mumkin. Chegarani
+oshirib boʻlmaydi. Bu imkoniyatdan foydalansangiz, ichma-ich joylashuvni bir
+necha daraja bilan cheklashni tavsiya qilamiz.</p>
+<p>2.1.56 versiyasidan oldin ustma-ust tushadigan matndan cloze yaratish kerak
+boʻlsa, cloze'ingizga yana bitta Text maydoni qoʻshib, uni <a href="templates/intro.html">shablonga</a>
+kiritasiz va yozuv yaratayotganda matnni ikkita alohida maydonga
+joylashtirasiz, mana bunday:</p>
+<pre><code class="language-text">    Text1 field: {{c1::Canberra was founded}} in 1913
+
+    Text2 field: {{c2::Canberra}} was founded in 1913
+</code></pre>
+<p>Standart cloze yozuv turida Extra (Qoʻshimcha) deb nomlangan ikkinchi maydon
+bor, u har bir kartaning javob tomonida koʻrsatiladi. Undan foydalanish
+boʻyicha eslatmalar yoki qoʻshimcha maʼlumot qoʻshish uchun foydalanish
+mumkin.</p>
+<p>Cloze yozuv turi Anki tomonidan alohida ishlanadi va oddiy yozuv turi asosida
+yaratib boʻlmaydi. Uni sozlamoqchi boʻlsangiz, boshqa turdagi yozuvni emas,
+mavjud Cloze turini nusxalashingiz kerak. Formatlash kabi narsalarni
+sozlash mumkin, lekin cloze yozuv turiga qoʻshimcha karta shablonlari qoʻshib
+boʻlmaydi.</p>
+<p>Anki endi bitta cloze deletion'ning bir nechta kartada chiqishiga imkon
+beradigan yangi sintaksisni qoʻllab-quvvatlaydi:</p>
+<pre><code class="language-text">    {{c1::-té}}, {{c2::-sion}}, or {{c3::-tion}} are {{c1,2,3,4::feminine}}.
+</code></pre>
+<p>Bu 4 ta karta yaratadi, ularning har birida &quot;feminine&quot; boshqa kontekstda
+yashirilgan. Xuddi shu natijaga eski ichma-ich sintaksis bilan ham erishish
+mumkin:</p>
+<pre><code class="language-text">    {{c1::-té}}, {{c2::-sion}}, {{c3::-tion}} are {{c4::{{c3::{{c2::{{c1::feminine}}}}}}}}
+</code></pre>
+<p>Yangi sintaksisni oʻqish va yozish osonroq, eski sintaksis esa ancha
+uzunroq.</p>
+<h2 id="sec-16">Image Occlusion (rasm qismlarini yashirish)</h2>
+<p><a id="image-occlusion"></a></p>
+<p>Anki 23.10 va undan yangi versiyalar Image Occlusion kartalarini
+(rasm qismlarini yashirish kartalari) toʻgʻridan-toʻgʻri qoʻllab-quvvatlaydi.
+Image Occlusion (IO) yozuvi — matn oʻrniga rasmga asoslangan cloze deletion'ning
+alohida turi, u rasmning baʼzi qismlarini yashiradigan va shu yashirin maʼlumot
+boʻyicha bilimingizni tekshiradigan kartalar yaratish imkonini beradi.</p>
+<p><img src="media/io.jpg" alt="Image Occlusion" /></p>
+<h3 id="sec-17">Rasm qoʻshish</h3>
+<p><a id="adding-an-image"></a></p>
+<p>Kolleksiyangizga IO kartalarini qoʻshish uchun Add (Qoʻshish) oynasini
+oching, &quot;Type&quot; (Tur) ni bosib, oʻrnatilgan yozuv turlari roʻyxatidan &quot;Image
+Occlusion&quot; ni tanlang. Keyin kompyuteringizning qattiq diskida saqlangan rasm
+faylini yuklash uchun <strong>Select Image</strong> (Rasmni tanlash) ni bosing yoki almashish
+buferida rasm nusxalangan boʻlsa, <strong>Paste image from clipboard</strong> (Rasmni
+almashish buferidan joylashtirish) ni bosing.</p>
+<h3 id="sec-18">IO kartalarini qoʻshish</h3>
+<p><a id="adding-io-cards"></a></p>
+<p>Rasmni yuklagach, IO tahrirlagichi ochiladi. Rasmingizga istalgancha hudud
+qoʻshish uchun chap tomondagi belgilarni bosing. Tanlash uchun uchta asosiy
+shakl bor:</p>
+<ul>
+<li>Toʻrtburchak (Rectangle)</li>
+<li>Ellips (Ellipse)</li>
+<li>Koʻpburchak (Polygon)</li>
+</ul>
+<p>Shuningdek, har bir yozuv uchun ikki xil IO rejimidan birini tanlashingiz
+mumkin:</p>
+<ul>
+<li><strong>Hide All, Guess One</strong> (Hammasini yashirish, bittasini topish): Barcha
+hududlar yashirilgan va oʻrganish paytida bir vaqtda faqat bitta hudud
+ochiladi.</li>
+<li><strong>Hide One, Guess One</strong> (Bittasini yashirish, bittasini topish): Bir vaqtda
+faqat bitta hudud yashirilgan va oʻrganish paytida ochiladi. Boshqa hududlar
+koʻrinib turadi.</li>
+</ul>
+<p><img src="media/io_modes.jpg" alt="Image Occlusion rejimlari" /></p>
+<p>Standart IO yozuv turida ham standart maydonlar bor:
+<strong>Header</strong> (Sarlavha) (har bir kartaning old va orqa tomonida rasm ustida
+koʻrsatiladi), <strong>Back Extra</strong> (Orqa tomon qoʻshimchasi) (har bir kartaning orqa
+tomonida rasm ostida koʻrsatiladi) va <strong>Comments</strong> (Izohlar) (kartalarda
+koʻrsatilmaydi). Ularga IO tahrirlagichidan kirish uchun <strong>Toggle Mask Editor</strong>
+(Niqob tahrirlagichini yoqish/oʻchirish) tugmasini bosing. U yerda yozuvning
+<strong>Tags</strong> (Teglar) ini ham koʻrishingiz va tahrirlashingiz mumkin.</p>
+<p>Tugatgach, ekranning pastidagi &quot;Add&quot; (Qoʻshish) tugmasini bosing. Anki oldingi
+bosqichda qoʻshgan har bir shakl yoki shakllar guruhi uchun bittadan karta
+qoʻshadi va siz ularni odatdagidek takrorlashni boshlashingiz mumkin.</p>
+<h2 id="sec-19">IO yozuvlarini tahrirlash</h2>
+<p><a id="editing-io-notes"></a></p>
+<p>IO yozuvlaringizni takrorlash paytida &quot;Edit&quot; (Tahrirlash) ni bosib yoki
+toʻgʻridan-toʻgʻri Browse oynasidan tahrirlashingiz mumkin. Foydalanishingiz
+mumkin boʻlgan bir nechta vosita bor. Muhimlari:</p>
+<ul>
+<li>Select (Tanlash): bir yoki bir nechta shaklni tanlab, koʻchirish, oʻlchamini
+oʻzgartirish, oʻchirish yoki guruhlash imkonini beradi.</li>
+<li>Zoom (Masshtab): rasmni erkin siljitish va sichqoncha gʻildiragi bilan
+kattalashtirish yoki kichraytirish mumkin.</li>
+<li>Shakllar (Rectangle, Ellipse yoki Polygon): yangi shakllar / kartalar
+qoʻshish uchun ishlating.</li>
+<li>Text (Matn): rasmga matn hududlarini qoʻshadi. Bu matn hududlarini
+koʻchirish, oʻlchamini oʻzgartirish yoki oʻchirish mumkin, lekin bu vosita
+ishlatilganda karta yaratilmaydi.</li>
+<li>Undo / Redo (Bekor qilish / Qaytarish).</li>
+<li>Zoom In / Out - Reset zoom (Kattalashtirish / kichraytirish - masshtabni
+tiklash).</li>
+<li>Toggle Translucency (Shaffoflikni yoqish/oʻchirish): yashirin hududlarni
+vaqtincha koʻrish uchun ishlating.</li>
+<li>Delete (Oʻchirish): tanlangan shakllar va matn hududlarini oʻchirish
+uchun ishlating. Shaklni oʻchirish unga bogʻliq kartani avtomatik oʻchirmasligini
+unutmang; buning uchun keyin Tools&gt;Empty Cards ni ishlatishingiz
+kerak, xuddi oddiy cloze deletion'lardagi kabi.</li>
+<li>Duplicate (Nusxa olish).</li>
+<li>Group selection (Tanlanganni guruhlash): shakllar toʻplamini yaratish uchun
+ishlating, bu ularni bir vaqtda koʻchirish, oʻlchamini oʻzgartirish yoki
+oʻchirishga imkon beradi. Ikki yoki undan koʻp yakka shakl guruhlanganda
+faqat bitta karta yaratilishini unutmang.</li>
+<li>Ungroup selection (Guruhni ajratish): guruhni tanlab, bu tugmani bossangiz,
+har bir shakl yana mustaqil boʻladi.</li>
+<li>Alignment (Tekislash): bu vosita shakllar / matn hududlarini xohlaganingizdek
+tekislash uchun ishlatiladi.</li>
+</ul>
+<p>IO kartalarini takrorlash paytida rasmning pastida &quot;Toggle Masks&quot; (Niqoblarni
+yoqish/oʻchirish) tugmasi paydo boʻladi. Bu tugma &quot;Hide All, Guess One&quot;
+rejimida yozuvning barcha shakllarini vaqtincha olib tashlaydi.</p>
+<h2 id="sec-20">Lotin boʻlmagan belgilar va urgʻularni kiritish</h2>
+<p><a id="inputting-non-latin-characters-and-accents"></a></p>
+<p>Barcha zamonaviy kompyuterlarda urgʻular va lotin boʻlmagan belgilarni yozish
+uchun ichki qoʻllab-quvvatlash va buning bir nechta usuli bor. Biz tavsiya
+qiladigan usul — oʻrganmoqchi boʻlgan tilingiz uchun klaviatura
+raskladkasidan foydalanish.</p>
+<p>Yapon, xitoy, tay va shu kabi alohida yozuvli tillarning oʻsha tilga xos
+raskladkalari bor.</p>
+<p>Urgʻuli yevropa tillarining oʻz raskladkasi boʻlishi mumkin, lekin ularni
+koʻpincha oddiy &quot;xalqaro klaviatura&quot; raskladkasida ham yozish mumkin. Ular
+shunday ishlaydi: avval urgʻuni, keyin urgʻu qoʻyilishi kerak boʻlgan
+belgini yozasiz, masalan, apostrof (<kbd>´</kbd>) va keyin a harfi (<kbd>a</kbd>)
+á ni beradi.</p>
+<h3 id="sec-21">Xalqaro klaviatura raskladkalarini qoʻshish</h3>
+<p><a id="adding-international-keyboard-layouts"></a></p>
+<p>Xalqaro klaviaturalardan foydalanish boʻyicha yoʻriqnomalar siz ishlatayotgan
+operatsion tizim va ish stoli muhitiga qarab farq qiladi. Boshlash uchun
+quyidagi havolalarga qarang.</p>
+<p>Windows:</p>
+<ul>
+<li><a href="https://thegeekpage.com/how-to-add-us-international-keyboard-in-windows-10/" class="ext">https://thegeekpage.com/how-to-add-us-international-keyboard-in-windows-10/</a></li>
+</ul>
+<p>Mac:</p>
+<ul>
+<li><a href="http://www.macworld.com/article/1147039/os-x/accentinput.html" class="ext">http://www.macworld.com/article/1147039/os-x/accentinput.html</a></li>
+</ul>
+<p>Linux:</p>
+<ul>
+<li>Gnome: <a href="https://help.gnome.org/gnome-help/tips-specialchars.html" class="ext">https://help.gnome.org/gnome-help/tips-specialchars.html</a></li>
+<li>KDE Plasma: <a href="https://userbase.kde.org/Tutorials/ComposeKey" class="ext">https://userbase.kde.org/Tutorials/ComposeKey</a></li>
+</ul>
+<h3 id="sec-22">Muayyan tillar uchun klaviatura raskladkalarini qoʻshish</h3>
+<p><a id="adding-keyboard-layouts-for-specific-languages"></a></p>
+<p>Muayyan tillar uchun klaviaturalar xuddi shunday qoʻshiladi, lekin hammasini
+bu yerda yoritib boʻlmaydi. Batafsil maʼlumot uchun internetdan &quot;input
+Japanese on a mac&quot;, &quot;type Chinese on Windows 10&quot; va shunga oʻxshash soʻrovlarni
+qidirib koʻring.</p>
+<p>Linux uchun distributivingizning wiki sahifalariga qarash eng yaxshisi,
+masalan, <a href="https://wiki.archlinux.org/title/Input_method" class="ext">Arch Linux</a> va
+<a href="https://wiki.debian.org/Keyboard#Modern_strategy" class="ext">Debian Linux</a>.
+Misol tariqasida, Debian'da <code>apt install ibus-anthy</code> hiragana belgilarini
+yozish imkonini beradi.</p>
+<h3 id="sec-23">Oʻngdan chapga yoziladigan tillar</h3>
+<p><a id="right-to-left-languages"></a></p>
+<p>Oʻngdan chapga yoziladigan tilni oʻrganayotgan boʻlsangiz, hisobga olish kerak
+boʻlgan boshqa koʻp narsalar bor. Batafsil maʼlumot uchun <a href="http://dotancohen.com/howto/rtl_right_to_left.html" class="ext">ushbu sahifaga</a>
+qarang.</p>
+<h3 id="sec-24">Cheklovlar</h3>
+<p><a id="limitations"></a></p>
+<p>Anki qurilgan vositalar toʻplami (toolkit) baʼzi kiritish usullari bilan
+muammoga duch keladi, masalan, macOS'da urgʻuli belgilarni tanlash uchun
+tugmalarni bosib turish va Windows'da <kbd>Alt</kbd> tugmasini bosib turib
+raqamli kod yozish orqali belgilar kiritish.</p>
+<h2 id="sec-25">Unicode normallashtirish</h2>
+<p><a id="unicode-normalization"></a></p>
+<p><code>á</code> kabi matn kompyuterda bir necha usulda ifodalanishi mumkin, masalan, shu
+belgi uchun maxsus koddan foydalanish yoki oddiy <code>a</code> va uning ustidagi urgʻu
+uchun boshqa koddan foydalanish. Bu turli manbalardan kiritilgan matnni
+aralashtirganda yoki turli kompyuterlardan foydalanganda muammo tugʻdiradi:
+kompyuteringiz klaviatura kiritishini bir shaklda ishlasa, mazmun esa boshqa
+shaklda saqlangan boʻlsa, qidirganda ular mos kelmaydi, garchi yakuniy natija
+bir xil koʻrinsa ham.</p>
+<p>Mazmun qidiruvlarda oson topilishini taʼminlash uchun Anki matnni standart
+shaklga keltiradi (normallashtiradi). Koʻpchilik foydalanuvchilar uchun bu
+jarayon sezilmaydi, lekin eski yapon belgilari kabi ayrim materiallarni
+oʻrganayotgan boʻlsangiz, normallashtirish ularni zamonaviyroq ekvivalentiga
+aylantirib qoʻyishi mumkin.</p>
+<p>Belgilar variantlari saqlanib qolishini xohlasangiz, <a href="misc.html">debug console</a>
+(xatolarni aniqlash konsoli) da quyidagini bajarish normallashtirishni
+oʻchiradi:</p>
+<pre><code class="language-python">mw.col.conf[&quot;normalize_note_text&quot;] = False
+</code></pre>
+<p>Shundan keyin qoʻshilgan har qanday mazmunga tegilmaydi. Buning evaziga,
+operatsion tizimlar orasida almashsangiz yoki aralash manbalardan mazmun
+joylashtirsangiz, mazmunni qidirish qiyinlashishi mumkin.</p>
+<div class="pn"><a href="studying.html"><small>Oldingi</small>Oʻrganish</a><a class="n" href="templates/intro.html"><small>Keyingi</small>Karta shablonlari</a></div></div></main><aside class="toc"><h5><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h14"/></svg> Sahifada</h5><a class="l2" href="#sec-1">Karta va yozuvlar qoʻshish</a><a class="l3" href="#sec-2">Takrorlanishni tekshirish</a><a class="l3" href="#sec-3">Samarali oʻrganish</a><a class="l2" href="#sec-4">Yozuv turi qoʻshish</a><a class="l2" href="#sec-5">Maydonlarni sozlash</a><a class="l2" href="#sec-6">Toʻplam / yozuv turini oʻzgartirish</a><a class="l2" href="#sec-7">Mazmunni tartibga solish</a><a class="l3" href="#sec-8">Toʻplamlardan toʻgʻri foydalanish</a><a class="l3" href="#sec-9">Teglardan foydalanish</a><a class="l3" href="#sec-10">Belgilardan foydalanish</a><a class="l3" href="#sec-11">&quot;Marked&quot; tegi</a><a class="l3" href="#sec-12">Maydonlardan foydalanish</a><a class="l3" href="#sec-13">Maxsus oʻrganish va filtrlangan toʻplamlar</a><a class="l2" href="#sec-14">Tahrirlash imkoniyatlari</a><a class="l2" href="#sec-15">Cloze deletion (matnning bir qismini yashirish)</a><a class="l2" href="#sec-16">Image Occlusion (rasm qismlarini yashirish)</a><a class="l3" href="#sec-17">Rasm qoʻshish</a><a class="l3" href="#sec-18">IO kartalarini qoʻshish</a><a class="l2" href="#sec-19">IO yozuvlarini tahrirlash</a><a class="l2" href="#sec-20">Lotin boʻlmagan belgilar va urgʻularni kiritish</a><a class="l3" href="#sec-21">Xalqaro klaviatura raskladkalarini qoʻshish</a><a class="l3" href="#sec-22">Muayyan tillar uchun klaviatura raskladkalarini qoʻshish</a><a class="l3" href="#sec-23">Oʻngdan chapga yoziladigan tillar</a><a class="l3" href="#sec-24">Cheklovlar</a><a class="l2" href="#sec-25">Unicode normallashtirish</a></aside></div><script src="search.js"></script><script src="app.js"></script></body></html>

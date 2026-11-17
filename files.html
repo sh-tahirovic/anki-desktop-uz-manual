@@ -1,0 +1,345 @@
+<!doctype html><html lang="uz" data-root="" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fayllar va kolleksiyani boshqarish - Anki hujjatlari</title><script>try{var t=localStorage.getItem("th");if(t)document.documentElement.dataset.theme=t}catch(e){}</script><link rel="stylesheet" href="style.css"></head><body><header class="top"><div class="bar"><div class="brand"><a href="index.html"><svg viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M16 3l3.2 7.4 8 .8-6 5.4 1.8 7.9L16 20.4 9 24.5l1.8-7.9-6-5.4 8-.8z"/></svg></a><span class="lang">Oʻzbekcha</span></div><div class="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" placeholder="Qidirish..." autocomplete="off"><kbd>Ctrl K</kbd><div class="res" id="res"></div></div><div class="acts"><button id="theme" title="Mavzu"></button><button id="menu" title="Menyu">☰</button></div></div><div class="tabs"><a class="on" href="index.html">Qoʻllanma</a><a href="https://docs.ankiweb.net/ankimobile" target="_blank" rel="noopener">AnkiMobile</a><a href="https://docs.ankiweb.net/faqs" target="_blank" rel="noopener">FAQ</a><a href="https://docs.ankiweb.net/addons" target="_blank" rel="noopener">Qoʻshimchalar</a><a href="https://docs.ankiweb.net/developers" target="_blank" rel="noopener">Dasturchilar</a><a href="https://docs.ankiweb.net/translators" target="_blank" rel="noopener">Tarjimonlar</a><a href="https://docs.ankiweb.net/releases" target="_blank" rel="noopener">Relizlar</a></div></header><div class="layout"><nav class="side"><a class="top" href="index.html"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z"/></svg><span>Bosh sahifa</span></a><a class="top" href="https://github.com/ankitects/anki" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2a10 10 0 00-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.200-3.4-1.200-.5-1.100-1.100-1.400-1.100-1.400-.9-.6.1-.6.1-.6 1 .1 1.500 1 1.500 1 .9 1.500 2.300 1.100 2.900.8.1-.7.4-1.100.6-1.400-2.200-.3-4.600-1.100-4.600-5 0-1.100.4-2 1-2.700-.1-.3-.4-1.300.1-2.700 0 0 .8-.3 2.800 1a9.600 9.600 0 015 0c1.900-1.300 2.800-1 2.800-1 .5 1.400.2 2.400.1 2.700.6.7 1 1.600 1 2.700 0 3.900-2.400 4.700-4.600 5 .4.3.7.9.7 1.900v2.800c0 .3.2.6.7.5A10 10 0 0012 2z"/></svg><span>GitHub</span></a><div class="sec">Kompyuter qoʻllanmasi</div><a href="intro.html">Kirish</a><a href="getting-started.html">Ishni boshlash</a><a href="background.html">Ilmiy asos</a><details><summary><a href="platform/intro.html">Platformalar haqida eslatmalar</a><i class="chev"></i></summary><div class="kids"><details><summary><a href="platform/windows/intro.html">Windows</a><i class="chev"></i></summary><div class="kids"><a href="platform/windows/installing.html">Anki&#x27;ni Windows&#x27;da oʻrnatish va yangilash</a><a href="platform/windows/installation-issues.html">Windows&#x27;da oʻrnatish muammolari</a><a href="platform/windows/startup-issues.html">Windows&#x27;da ishga tushirish muammolari</a><a href="platform/windows/display-issues.html">Windows&#x27;da koʻrinish (ekran) muammolari</a><a href="platform/windows/permission-problems.html">Windows&#x27;da ruxsat muammolari</a><a href="platform/windows/copy-and-paste.html">Nusxalash va joylashtirish muammolari</a><a href="platform/windows/text-size.html">Matn oʻlchami</a></div></details><details><summary><a href="platform/mac/intro.html">macOS</a><i class="chev"></i></summary><div class="kids"><a href="platform/mac/installing.html">Anki&#x27;ni macOS&#x27;da oʻrnatish va yangilash</a><a href="platform/mac/display-issues.html">macOS&#x27;da koʻrinish (ekran) muammolari</a></div></details><details><summary><a href="platform/linux/intro.html">Linux</a><i class="chev"></i></summary><div class="kids"><a href="platform/linux/installing.html">Anki&#x27;ni Linux&#x27;da oʻrnatish va yangilash</a><a href="platform/linux/missing-libraries.html">Yetishmayotgan kutubxonalar</a><a href="platform/linux/display-issues.html">Linux&#x27;da koʻrinish (ekran) muammolari</a><a href="platform/linux/blank-window.html">Boʻm-boʻsh asosiy oyna</a><a href="platform/linux/distro-packages.html">Linux distributivlari tarqatadigan paketlar</a><a href="platform/linux/gtk-theme.html">Anki Gnome/Linux&#x27;da GTK mavzusini (theme) qabul qilmayapti</a><a href="platform/linux/wayland.html">Wayland</a><a href="platform/linux/input-methods.html">Linux&#x27;da kiritish usullari</a></div></details></div></details><a href="getting-help.html">Yordam olish</a><a href="studying.html">Oʻrganish</a><a href="editing.html">Qoʻshish va tahrirlash</a><details><summary><a href="templates/intro.html">Karta shablonlari</a><i class="chev"></i></summary><div class="kids"><a href="templates/fields.html">Maydon almashtirishlari</a><a href="templates/generation.html">Karta yaratish</a><a href="templates/styling.html">Bezak va HTML</a><a href="templates/errors.html">Tekshiruvlar va xatolar</a></div></details><a href="preferences.html">Sozlamalar</a><a href="deck-options.html">Toʻplam sozlamalari</a><a href="syncing.html">AnkiWeb bilan sinxronlash</a><a href="profiles.html">Profillar</a><a href="browsing.html">Koʻrib chiqish (Browse)</a><a href="filtered-decks.html">Filtrlangan toʻplamlar va imtihonga shoshilinch tayyorlanish</a><a href="searching.html">Qidiruv</a><details><summary><a href="importing/intro.html">Import qilish</a><i class="chev"></i></summary><div class="kids"><a href="importing/text-files.html">Matnli fayllar</a><a href="importing/packaged-decks.html">Paketlangan toʻplamlar</a></div></details><a href="exporting.html">Eksport qilish</a><a href="backups.html">Zaxira nusxalar</a><a class="cur" href="files.html">Fayllar va kolleksiyani boshqarish</a><a href="stats.html">Karta haqida maʼlumot, grafiklar va statistika</a><a href="media.html">Media</a><a href="math.html">Matematika va belgilar</a><a href="leeches.html">Leech kartalar</a><a href="addons.html">Qoʻshimchalar (Add-ons)</a><a href="troubleshooting.html">Muammolarni bartaraf etish</a><a href="sync-server.html">Oʻz serveringizdagi sinxronlash serveri</a><a href="misc.html">Turli mavzular</a><a href="contributing.html">Hissa qoʻshish</a><a href="resources.html">Resurslar</a></nav><main><div class="doc"><div class="crumb">Kompyuter qoʻllanmasi</div><h1>Fayllar va kolleksiyani boshqarish</h1><h2 id="sec-1">Checking Your Collection (Kolleksiyangizni tekshirish)</h2>
+<p><a id="checking-your-collection"></a></p>
+<p>Kolleksiya faylingizni vaqti-vaqti bilan muammolarga qarshi tekshirib turgan
+yaxshi. Buni <strong>Tools&gt;Check Database</strong> (Asboblar&gt;Maʼlumotlar bazasini
+tekshirish) menyu bandi orqali qilishingiz mumkin. Maʼlumotlar bazasini
+tekshirish fayl buzilmaganini taʼminlaydi, baʼzi ichki tuzilmalarni qayta
+quradi va faylni optimallashtiradi.</p>
+<p>Maʼlumotlar bazasini tekshirganingizda teglar roʻyxatingiz ham qayta quriladi.
+Alohida toʻplamlar yoki kartalarni oʻchirganingizda, Anki ishlatilgan teglar
+roʻyxatini yangilamaydi, chunki bu samarasiz. Endi ishlatilmayotgan eski
+teglarni roʻyxatdan tozalamoqchi boʻlsangiz, maʼlumotlar bazasini tekshirish
+buning usullaridan biri.</p>
+<div class="callout note">
+<p>Ishlatilmayotgan teglarni tozalash kolleksiyangizning qolgan qismi bilan
+birga boshqa qurilmalarga sinxronlanmaydi, shuning uchun <em>Check Database</em>
+ni har bir qurilmada alohida bajarishingiz kerak boʻladi.</p>
+</div>
+<p>Shuni yodda tutingki, Anki kolleksiyangizni har 2 haftada bir marta avtomatik
+optimallashtiradi. Bu optimallashtirish kolleksiya yaxshi ishlashini
+taʼminlaydi, lekin avtomatik optimallashtirishda xatolarni tekshirmaydi va
+teglar roʻyxatini qayta qurmaydi.</p>
+<p><span id="file-locations"></span></p>
+<h2 id="sec-2">User Data (Foydalanuvchi maʼlumotlari)</h2>
+<p><a id="user-data"></a></p>
+<p><strong>Windows</strong>’da Anki'ning eng yangi versiyalari kolleksiya fayllaringizni
+appdata jildida saqlaydi. Unga fayl menejerini ochib, manzil maydoniga
+<code>%APPDATA%\Anki2</code> deb yozib kirishingiz mumkin. Anki'ning eski versiyalari
+Anki fayllaringizni <code>Documents</code> jildingizdagi <code>Anki</code> nomli jildda saqlagan.</p>
+<p><strong>Mac</strong> kompyuterlarida Anki'ning soʻnggi versiyalari barcha foydalanuvchi
+maʼlumotlarini <code>~/Library/Application Support/Anki2</code> jildida saqlaydi. <code>~</code>
+belgisi uy jildingizni bildiradi. Anki jildini ochish uchun:</p>
+<ol>
+<li>Finder'ni ochib, menyu satridan <strong>Go → Go to Folder</strong> (Oʻtish → Jildga
+oʻtish) ni tanlang yoki <kbd>Shift</kbd>+<kbd>Command</kbd>+<kbd>G</kbd>
+ni bosing.</li>
+<li><code>~/Library/Application Support/Anki2</code> ni qoʻyib, <kbd>Return</kbd> ni
+bosing.</li>
+<li>Anki profilingiz nomi bilan atalgan jildni oching. Masalan, <code>User 1</code>
+nomli profilning mediasi <code>Anki2/User 1/collection.media</code> ichida.</li>
+</ol>
+<p>Library jildi odatda yashirin boʻlsa ham, bu ishlaydi. Shuningdek, Finder'ning
+<strong>Go</strong> menyusidan <kbd>Option</kbd> ni bosib turib <strong>Library</strong> ni tanlab
+Library'ni ochishingiz, keyin <strong>Application Support → Anki2</strong> ni ochishingiz
+mumkin. Anki'ning eski versiyasidan foydalansangiz, Anki fayllaringiz
+<code>Documents/Anki</code> jildingizda boʻladi.</p>
+<p><strong>Linux</strong>’da Anki'ning soʻnggi versiyalari foydalanuvchi maʼlumotlaringizni
+<code>~/.local/share/Anki2</code> ichida saqlaydi, yoki maxsus maʼlumotlar yoʻlini
+belgilagan boʻlsangiz, <code>$XDG_DATA_HOME/Anki2</code> ichida. Uchinchi tomon <strong>Flatpak</strong>
+buildidan foydalansangiz, fayllaringiz <code>~/.var/app/net.ankiweb.Anki/data/Anki2/</code>
+ichida boʻladi. Anki'ning eski versiyalari fayllaringizni <code>~/Documents/Anki</code>
+yoki <code>~/Anki</code> ichida saqlagan.</p>
+<p>Anki jildi ichida dastur darajasidagi va profil darajasidagi sozlamalar
+<code>prefs.db</code> nomli faylda saqlanadi.</p>
+<p>Har bir profil uchun alohida jild ham bor. Jildda quyidagilar bor:</p>
+<ul>
+<li>
+<p>Yozuvlaringiz, toʻplamlaringiz, kartalaringiz va hokazo <code>collection.anki2</code>
+nomli faylda</p>
+</li>
+<li>
+<p>Audio va rasmlaringiz <code>collection.media</code> jildida</p>
+</li>
+<li>
+<p>Zaxira nusxalar jildi (backups)</p>
+</li>
+<li>
+<p>Baʼzi tizim fayllari</p>
+</li>
+</ul>
+<p>Anki ochiq turganda kolleksiyangizni hech qachon nusxalamang yoki
+koʻchirmang. Bu kolleksiyangiz buzilishiga olib kelishi mumkin. Iltimos,
+jilddagi boshqa fayllarni ham koʻchirmang yoki oʻzgartirmang.</p>
+<h2 id="sec-3">Program Files (Dastur fayllari)</h2>
+<p><a id="program-files"></a></p>
+<p>Anki standart holatda quyidagi joylarga oʻrnatiladi:</p>
+<ul>
+<li>Windows: <code>%LOCALAPPDATA%\Programs\Anki</code></li>
+<li>macOS: <code>/Applications/Anki.app</code></li>
+<li>Linux: <code>/usr/local/share/anki</code></li>
+</ul>
+<p>25.07 dan 25.09.4 gacha boʻlgan versiyalarda Anki'ni oʻrnatganingizda/
+yangilaganingizda, u yordamchi fayllarni yuklab olib, quyidagi joylarga
+joylashtiradi:</p>
+<ul>
+<li>Windows: <code>%LOCALAPPDATA%\AnkiProgramFiles</code></li>
+<li>macOS: <code>~/Library/Application Support/AnkiProgramFiles</code></li>
+<li>Linux: <code>~/.local/share/AnkiProgramFiles</code></li>
+</ul>
+<p>Bu jildni olib tashlash ishga tushirgichning (launcher) yangi oʻrnatilgandek
+ishlashiga sabab boʻladi.</p>
+<p><code>AnkiProgramFiles</code> ishga tushirgichdan tashqari Anki'ni ishga tushirish uchun
+kerak boʻlgan barcha fayllarni oʻz ichiga oladi. Uni boshqa jildga yoki tizimga
+nusxalab, Anki'ni yangi joydan <code>AnkiProgramFiles/.venv/bin/anki</code> ni (Windows'da
+<code>AnkiProgramFiles\.venv\scripts\anki</code> ni) ochib ishga tushirishingiz mumkin.
+Yangi kompyuterda standart joyga qoʻyilsa, fayllar oʻzgartirilgan vaqtlari
+saqlangan holda nusxalangan boʻlsa, ishga tushirgich mavjud fayllardan qayta
+foydalana oladi.</p>
+<p>Koʻproq maʼlumot uchun quyidagi flesh-disk boʻlimiga qarang.</p>
+<h2 id="sec-4">Startup Options (Ishga tushirish parametrlari)</h2>
+<p><a id="startup-options"></a></p>
+<p>Bir kompyuterda buzuvchi oʻzgarish qilib, boshqa kompyuterda buzilmagan nusxangiz
+boʻlsa, oʻzgarishlarni avval yuklab olmasdan toʻliq sinxronlash variantidan
+foydalanish uchun Anki'ni sinxronlashsiz ishga tushirishni xohlashingiz mumkin.
+Shunga oʻxshash, Anki bilan muammolar boʻlsa, muammoga biror qoʻshimcha sabab
+boʻlayotganini bilish uchun qoʻshimchalarni vaqtincha oʻchirib qoʻyishingiz
+kerak boʻlishi (yoki sizdan shuni soʻralishi) mumkin. Bu ikkalasini bir vaqtda
+qilish uchun Anki'ni ishga tushirayotganda <kbd>Shift</kbd> tugmasini bosib
+turib, xavfsiz rejimda (safe mode) ochishingiz mumkin. Ekrandagi xabar Anki
+xavfsiz rejimda ishga tushganini bildirguncha <kbd>Shift</kbd> ni bosib
+turing. Linux'da bu ishlamasa, 'anki --safemode' ni ishga tushiring.</p>
+<p>Ishga tushirishda maxsus jild joylashuvini koʻrsatish mumkin. Bu asosan
+koʻchma (portable) oʻrnatishlar bilan ishlatish uchun moʻljallangan ilgʻor
+funksiya, koʻp hollarda standart joydan foydalanishni tavsiya qilamiz.</p>
+<p>Muqobil jildni koʻrsatish sintaksisi quyidagicha:</p>
+<pre><code class="language-text">    anki -b /path/to/anki/folder
+</code></pre>
+<ul>
+<li>
+<p>Bir nechta profilingiz boʻlsa, muayyan profilni yuklash uchun -p
+&lt;name&gt; ni berishingiz mumkin.</p>
+</li>
+<li>
+<p>-p some-fake-name ni bersangiz, Anki ishga tushganda profil ekranini
+koʻrsatadi. Profil berilmasa, oxirgi ishlatilgan profil yuklanadi.</p>
+</li>
+<li>
+<p>Interfeys tilini oʻzgartirish uchun -l &lt;iso 639-1 til kodi&gt; dan
+foydalaning, masalan, yapon tili uchun &quot;-l ja&quot;.</p>
+</li>
+</ul>
+<p>Doim maxsus jild joylashuvidan foydalanmoqchi boʻlsangiz, Anki yorligʻini
+(shortcut) oʻzgartirishingiz mumkin. Windows'da yorliq ustida sichqonchaning
+oʻng tugmasini bosib, Properties (Xususiyatlar) ni tanlang, Shortcut
+(Yorliq) yorligʻini tanlang va dastur yoʻlidan keyin &quot;-b
+\path\to\data\folder&quot; ni qoʻshing, shunda quyidagiga oʻxshash narsa
+hosil boʻladi</p>
+<pre><code class="language-text">    &quot;C:\Program Files\Anki\anki.exe&quot; -b &quot;C:\AnkiDataFolder&quot;
+</code></pre>
+<p>Shuningdek, bu usulni -l varianti bilan ham ishlatib, Anki'dan turli tillarda
+oson foydalanishingiz mumkin.</p>
+<p>Windows'da toʻgʻri qiya chiziq (/) emas, teskari qiya chiziq (\)
+ishlatishingiz kerak.</p>
+<p>Mac'da Anki ikonkasini bosganda xulqni oʻzgartirishning oson yoʻli yoʻq, lekin
+Anki'ni terminaldan maxsus asosiy jild bilan ishga tushirish mumkin:</p>
+<pre><code class="language-text">    open /Applications/Anki.app --args -b ~/myankifolder
+</code></pre>
+<p>Yoki &quot;ANKI_BASE&quot; muhit oʻzgaruvchisini belgilashingiz mumkin.
+Windows'da muhit oʻzgaruvchisini quyidagi bilan belgilashingiz mumkin:</p>
+<pre><code class="language-text">    set &quot;ANKI_BASE=C:/path/to/AnkiDataFolder&quot;
+</code></pre>
+<p>Linux va macOS'da quyidagidan foydalanishingiz mumkin:</p>
+<pre><code class="language-text">    export ANKI_BASE=&quot;/path/to/AnkiDataFolder&quot;
+</code></pre>
+<h2 id="sec-5">DropBox and File Syncing (DropBox va fayllarni sinxronlash)</h2>
+<p><a id="dropbox-and-file-syncing"></a></p>
+<p>Anki jildingizni uchinchi tomon sinxronlash xizmati bilan toʻgʻridan-toʻgʻri
+sinxronlashni tavsiya qilmaymiz, chunki fayllar ishlatilayotgan paytda
+sinxronlansa, maʼlumotlar bazasi buzilishiga olib kelishi mumkin.</p>
+<p>Faqat mediangizni sinxronlamoqchi boʻlsangiz, tashqi jildlarni DropBox kabi
+xizmatlarga ulashingiz mumkin. Koʻproq maʼlumot uchun <a href="http://web.archive.org/web/20180919153730/http://www.dropboxwiki.com/tips-and-tricks/sync-other-folders" class="ext">DropboxWiki: Sync
+Folders Outside Dropbox (archive.org)</a> ga qarang.</p>
+<p>Kolleksiyangizni ham sinxron holatda saqlamoqchi boʻlsangiz, fayllaringizni
+sinxronlanadigan jilddan mahalliy jildga nusxalaydigan, Anki'ni ishga
+tushiradigan va Anki yopilganda fayllarni qayta nusxalaydigan skript yaratish
+qatʼiy tavsiya etiladi. Bu fayllar ochiq turganda hech qachon
+sinxronlanmasligini taʼminlaydi.</p>
+<h2 id="sec-6">Network Filesystems (Tarmoq fayl tizimlari)</h2>
+<p><a id="network-filesystems"></a></p>
+<p>Anki fayllaringizni mahalliy qattiq diskda saqlashini qatʼiy tavsiya qilamiz,
+chunki tarmoq fayl tizimlari maʼlumotlar bazasi buzilishiga olib kelishi
+mumkin. Tarmoq fayl tizimi yagona variantingiz boʻlsa, buzilishni aniqlash
+uchun <strong>Tools&gt;Check Database</strong> dan muntazam foydalanish tavsiya etiladi.</p>
+<h2 id="sec-7">Running from a Flash Drive (Flesh-diskdan ishga tushirish)</h2>
+<p><a id="running-from-a-flash-drive"></a></p>
+<p>Windows'da Anki'ni USB / flesh-diskka oʻrnatib, koʻchma dastur sifatida
+ishlatish mumkin. Quyidagi misol USB diskingiz E diski deb faraz qiladi;
+kerak boʻlsa moslang.</p>
+<ul>
+<li>
+<p>%LOCALAPPDATA%\Programs\Anki jildini flesh-diskka nusxalang, shunda E:\Anki
+kabi jild hosil boʻladi.</p>
+</li>
+<li>
+<p>Quyidagi matn bilan E:\anki.bat nomli matnli fayl yarating:</p>
+<p>E:\anki\anki.exe -b E:\ankidata</p>
+</li>
+</ul>
+<p>Qora buyruq satri (command prompt) oynasi ochiq qolishining oldini olmoqchi
+boʻlsangiz, oʻrniga quyidagidan foydalanishingiz mumkin:</p>
+<pre><code class="language-text">    start /b E:\anki\anki.exe -b E:\ankidata
+</code></pre>
+<ul>
+<li>anki.bat ni ikki marta bosish Anki'ni foydalanuvchi maʼlumotlari E:\ankidata
+ichida saqlangan holda ishga tushirishi kerak.</li>
+</ul>
+<p>Disk harfini oʻz ichiga olgan toʻliq yoʻl kerak — oʻrniga <code>\anki\anki.exe</code>
+dan foydalanmoqchi boʻlsangiz, sinxronlash ishlamay qolishini koʻrasiz.</p>
+<p>OGOHLANTIRISH: Disk harfi barcha qurilmalarda bir xil boʻlishi kerak. Buni E
+disk uchun sozlasangiz, masalan, D diskka tayinlangan flesh-disk uchun
+ishlamaydi.</p>
+<p>OGOHLANTIRISH: Flesh-diskingiz FAT32 sifatida formatlangan boʻlsa, AnkiWeb
+bilan media sinxronlash ishlamasligi mumkin. Media toʻgʻri sinxronlanishi
+uchun iltimos, diskni NTFS sifatida formatlang.</p>
+<h3 id="sec-8">Anki Launcher (Anki ishga tushirgichi)</h3>
+<p><a id="anki-launcher"></a></p>
+<p>Bu koʻrsatmalar Anki'ning 25.07 dan 25.09.4 gacha boʻlgan versiyalariga
+tegishli:</p>
+<ol>
+<li>Anki ishga tushirgichining eng yangi versiyasini yuklab olib, uni maxsus
+joyga oʻrnating: <code>E:\Anki\Launcher</code>. <code>E:\Anki\Launcher\Anki</code> emas.</li>
+<li>Ishga tushirgich paydo boʻlganda, uni oʻrnatmasdan yoping.</li>
+<li>Quyidagini <code>E:\Anki\Anki.bat</code> fayliga joylang:</li>
+</ol>
+<pre><code class="language-bat">@echo off
+echo Starting Anki...
+set USB_ROOT=%~dp0
+set ANKI_LAUNCHER_VENV_ROOT=%USB_ROOT%\AnkiProgramFiles
+set ANKI_LAUNCHER=%USB_ROOT%\Launcher\anki
+set ANKI_BASE=%USB_ROOT%\AnkiData
+start /b %ANKI_LAUNCHER%
+</code></pre>
+<ol start="4">
+<li>Yaratgan .bat faylingizni ikki marta bosing va Anki'ni odatdagidek
+oʻrnating.</li>
+<li>Endi Anki'ni boshqa kompyuterlardan ishga tushirish uchun .bat faylni ikki
+marta bosishingiz mumkin.</li>
+</ol>
+<p><strong>Tools&gt;Upgrade/Downgrade</strong> (Asboblar&gt;Yangilash/Eski versiyaga qaytarish)
+ishlashda davom etadi, lekin faqat kompyuteringiz internetga ulangan
+boʻlsagina.</p>
+<h2 id="sec-9">Backups (Zaxira nusxalar)</h2>
+<p><a id="backups"></a></p>
+<p><a href="backups.html">Shu boʻlimga</a> qarang.</p>
+<h2 id="sec-10">Inaccessible Harddisk (Qattiq disk mavjud emas)</h2>
+<p><a id="inaccessible-harddisk"></a></p>
+<p>Anki <a href="#user-data">Anki jildi</a>dagi fayllarga yoza olmasa, ishga tushirishda
+Anki qattiq diskka yoza olmayotgani haqida xabar koʻrsatiladi va Anki
+yopiladi. Ruxsatlarni qanday tuzatishni bilmasangiz, iltimos, atrofingizdagi
+kompyuterlarni yaxshi biladigan va sizga yordam bera oladigan odamga
+murojaat qiling.</p>
+<h2 id="sec-11">Permissions of Temp Folder (Vaqtinchalik jild ruxsatlari)</h2>
+<p><a id="permissions-of-temp-folder"></a></p>
+<p>Anki vaqtinchalik maʼlumotlarni saqlash uchun tizimning vaqtinchalik
+jildidan foydalanadi. Bu jild ruxsatlari standart sozlamalardan nnoxush
+dastur yoki xato ishlaydigan antivirus dasturi tomonidan oʻzgartirilgan
+boʻlsa, Anki toʻgʻri ishlamaydi.</p>
+<p>Windows 7 kompyuteringiz boʻlsa, muammoni tuzatishning umumiy qadamlari
+quyida keltirilgan. Bu biroz murakkab boʻlgani uchun, ishonchingiz komil
+boʻlmasa, Windows'ni yaxshi biladigan odamdan soʻrang.</p>
+<ol>
+<li>
+<p>Start panelini bosib, %temp% (foiz belgilari bilan) deb yozing, keyin
+<kbd>Enter</kbd> ni bosing.</p>
+</li>
+<li>
+<p>Bir jild yuqoriga chiqib, temp jildini toping. Uning ustida sichqonchaning
+oʻng tugmasini bosib, Properties (Xususiyatlar) ni tanlang.</p>
+</li>
+<li>
+<p>Security (Xavfsizlik) yorligʻida Advanced (Qoʻshimcha) ni bosing.</p>
+</li>
+<li>
+<p>Owner (Egasi) yorligʻini bosing. Siz egasi sifatida koʻrsatilmagan
+boʻlsangiz, egalikni olish tugmasini bosing.</p>
+</li>
+<li>
+<p>Permissions (Ruxsatlar) yorligʻida toʻliq nazoratga egaligingizga ishonch
+hosil qiling. Standart W7 oʻrnatishida nazorat aslida
+c:\users\your-username dan meros qilib olinadi.</p>
+</li>
+</ol>
+<h2 id="sec-12">Corrupt Collections (Buzilgan kolleksiyalar)</h2>
+<p><a id="corrupt-collections"></a></p>
+<p>Anki dastur va kompyuter ishdan chiqishlariga chidamli fayl formatidan
+foydalanadi, lekin fayllar Anki ochiq turganda oʻzgartirilsa, tarmoq diskida
+saqlansa yoki xato tufayli buzilsa, kolleksiyangiz baribir buzilishi mumkin.</p>
+<p><strong>Tools&gt;Check Database</strong> ni ishga tushirganingizda, Anki faylning
+buzilganini aniqlasa, xabar olasiz. <strong>Bundan tiklanishning eng yaxshi yoʻli —
+eng oxirgi <a href="#backups">avtomatik zaxira nusxadan</a> tiklash</strong>, lekin zaxira
+nusxangiz juda eski boʻlsa, oʻrniga buzilishni tuzatishga urinib koʻrishingiz
+mumkin.</p>
+<p>Linux'da sqlite3 oʻrnatilganiga ishonch hosil qiling. Mac'da u allaqachon
+oʻrnatilgan boʻlishi kerak. Windows'da
+<a href="http://www.sqlite.org/sqlite-3_6_23.zip" class="ext">http://www.sqlite.org/sqlite-3_6_23.zip</a>
+ni yuklab oling.</p>
+<p>Keyin quyidagi qadamlarda biror narsa xato ketsa degan ehtiyot chorasi
+sifatida collection.anki2 faylingizning zaxira nusxasini yarating.</p>
+<h3 id="sec-13">Linux/macOS</h3>
+<p><a id="linuxmacos"></a></p>
+<p>Terminalni oching, kolleksiyangiz joylashgan jildga oʻting va quyidagini
+yozing:</p>
+<pre><code class="language-text">    sqlite3 collection.anki2 .dump &gt; dump.txt
+</code></pre>
+<p>Hosil boʻlgan dump.txt faylini matn muharririda oching va oxirgi qatorga
+qarang. Unda &quot;rollback;&quot; yozilgan boʻlsa, uni &quot;commit;&quot; ga oʻzgartiring.</p>
+<p>Keyin terminalda quyidagini ishga tushiring:</p>
+<pre><code class="language-text">    cat dump.txt | sqlite3 temp.file
+</code></pre>
+<p>Albatta temp.file dan foydalaning — oʻng tomonga collection.anki2 ni
+qoʻymang, aks holda faylni boʻshatib yuborasiz. Tugatganingizdan keyin
+oxirgi qadamga oʻting.</p>
+<h3 id="sec-14">Windows</h3>
+<p><a id="windows"></a></p>
+<p><code>sqlite3.exe</code> dasturini va toʻplamingizni ish stolingizga nusxalang. Keyin
+<strong>Start&gt;Run</strong> (Start&gt;Ishga tushirish) ga oʻtib, <code>cmd.exe</code> deb yozing.</p>
+<p>Yangi Windows'dan foydalansangiz, buyruq satri ish stolingizda
+boshlanmasligi mumkin. Buyruq satrida ish stoli koʻrsatilmagan boʻlsa,
+quyidagiga oʻxshash narsani yozing, &quot;administrator&quot; oʻrniga oʻz login
+nomingizni qoʻying.</p>
+<pre><code class="language-text">    cd C:\Users\Administrator\Desktop
+</code></pre>
+<p>Keyin quyidagini yozing:</p>
+<pre><code class="language-text">    sqlite3 collection.anki2 .dump &gt; dump.txt
+</code></pre>
+<p>Hosil boʻlgan dump.txt faylini matn muharririda oching va oxirgi qatorga
+qarang. Unda &quot;rollback;&quot; yozilgan boʻlsa, uni &quot;commit;&quot; ga oʻzgartiring.</p>
+<p>Keyin terminalda quyidagini ishga tushiring:</p>
+<pre><code class="language-text">    type dump.txt | sqlite3 temp.file
+</code></pre>
+<p>Albatta temp.file dan foydalaning — oʻng tomonga collection.anki2 ni
+qoʻymang, aks holda faylni boʻshatib yuborasiz. Tugatganingizdan keyin
+oxirgi qadamga oʻting.</p>
+<h3 id="sec-15">Final Step (Oxirgi qadam)</h3>
+<p><a id="final-step"></a></p>
+<p>Xato xabari chiqmaganiga va temp.file boʻsh emasligiga ishonch hosil qiling.
+Bu jarayon kolleksiyani optimallashtiradi, shuning uchun yangi fayl eskisidan
+biroz kichikroq boʻlishi normal.</p>
+<p>Fayl boʻsh emasligini tasdiqlaganingizdan keyin:</p>
+<ul>
+<li>
+<p>asl collection.anki2 faylining nomini boshqasiga oʻzgartiring</p>
+</li>
+<li>
+<p>temp.file nomini collection.anki2 ga oʻzgartiring</p>
+</li>
+<li>
+<p>collection.anki2 ni kolleksiya jildingizga qaytarib koʻchiring, eski
+versiyaning ustidan yozing</p>
+</li>
+<li>
+<p>Anki'ni ishga tushirib, kolleksiya muvaffaqiyatli tiklanganiga ishonch
+hosil qilish uchun <strong>Tools&gt;Check Database</strong> ga oʻting.</p>
+</li>
+</ul>
+<div class="pn"><a href="backups.html"><small>Oldingi</small>Zaxira nusxalar</a><a class="n" href="stats.html"><small>Keyingi</small>Karta haqida maʼlumot, grafiklar va statistika</a></div></div></main><aside class="toc"><h5><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h14"/></svg> Sahifada</h5><a class="l2" href="#sec-1">Checking Your Collection (Kolleksiyangizni tekshirish)</a><a class="l2" href="#sec-2">User Data (Foydalanuvchi maʼlumotlari)</a><a class="l2" href="#sec-3">Program Files (Dastur fayllari)</a><a class="l2" href="#sec-4">Startup Options (Ishga tushirish parametrlari)</a><a class="l2" href="#sec-5">DropBox and File Syncing (DropBox va fayllarni sinxronlash)</a><a class="l2" href="#sec-6">Network Filesystems (Tarmoq fayl tizimlari)</a><a class="l2" href="#sec-7">Running from a Flash Drive (Flesh-diskdan ishga tushirish)</a><a class="l3" href="#sec-8">Anki Launcher (Anki ishga tushirgichi)</a><a class="l2" href="#sec-9">Backups (Zaxira nusxalar)</a><a class="l2" href="#sec-10">Inaccessible Harddisk (Qattiq disk mavjud emas)</a><a class="l2" href="#sec-11">Permissions of Temp Folder (Vaqtinchalik jild ruxsatlari)</a><a class="l2" href="#sec-12">Corrupt Collections (Buzilgan kolleksiyalar)</a><a class="l3" href="#sec-13">Linux/macOS</a><a class="l3" href="#sec-14">Windows</a><a class="l3" href="#sec-15">Final Step (Oxirgi qadam)</a></aside></div><script src="search.js"></script><script src="app.js"></script></body></html>

@@ -1,0 +1,871 @@
+<!doctype html><html lang="uz" data-root="" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Toʻplam sozlamalari - Anki hujjatlari</title><script>try{var t=localStorage.getItem("th");if(t)document.documentElement.dataset.theme=t}catch(e){}</script><link rel="stylesheet" href="style.css"></head><body><header class="top"><div class="bar"><div class="brand"><a href="index.html"><svg viewBox="0 0 32 32" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M16 3l3.2 7.4 8 .8-6 5.4 1.8 7.9L16 20.4 9 24.5l1.8-7.9-6-5.4 8-.8z"/></svg></a><span class="lang">Oʻzbekcha</span></div><div class="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" placeholder="Qidirish..." autocomplete="off"><kbd>Ctrl K</kbd><div class="res" id="res"></div></div><div class="acts"><button id="theme" title="Mavzu"></button><button id="menu" title="Menyu">☰</button></div></div><div class="tabs"><a class="on" href="index.html">Qoʻllanma</a><a href="https://docs.ankiweb.net/ankimobile" target="_blank" rel="noopener">AnkiMobile</a><a href="https://docs.ankiweb.net/faqs" target="_blank" rel="noopener">FAQ</a><a href="https://docs.ankiweb.net/addons" target="_blank" rel="noopener">Qoʻshimchalar</a><a href="https://docs.ankiweb.net/developers" target="_blank" rel="noopener">Dasturchilar</a><a href="https://docs.ankiweb.net/translators" target="_blank" rel="noopener">Tarjimonlar</a><a href="https://docs.ankiweb.net/releases" target="_blank" rel="noopener">Relizlar</a></div></header><div class="layout"><nav class="side"><a class="top" href="index.html"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z"/></svg><span>Bosh sahifa</span></a><a class="top" href="https://github.com/ankitects/anki" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2a10 10 0 00-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.200-3.4-1.200-.5-1.100-1.100-1.400-1.100-1.400-.9-.6.1-.6.1-.6 1 .1 1.500 1 1.500 1 .9 1.500 2.300 1.100 2.900.8.1-.7.4-1.100.6-1.400-2.200-.3-4.600-1.100-4.600-5 0-1.100.4-2 1-2.700-.1-.3-.4-1.300.1-2.700 0 0 .8-.3 2.800 1a9.600 9.600 0 015 0c1.900-1.300 2.800-1 2.800-1 .5 1.400.2 2.400.1 2.700.6.7 1 1.600 1 2.700 0 3.900-2.400 4.700-4.600 5 .4.3.7.9.7 1.900v2.800c0 .3.2.6.7.5A10 10 0 0012 2z"/></svg><span>GitHub</span></a><div class="sec">Kompyuter qoʻllanmasi</div><a href="intro.html">Kirish</a><a href="getting-started.html">Ishni boshlash</a><a href="background.html">Ilmiy asos</a><details><summary><a href="platform/intro.html">Platformalar haqida eslatmalar</a><i class="chev"></i></summary><div class="kids"><details><summary><a href="platform/windows/intro.html">Windows</a><i class="chev"></i></summary><div class="kids"><a href="platform/windows/installing.html">Anki&#x27;ni Windows&#x27;da oʻrnatish va yangilash</a><a href="platform/windows/installation-issues.html">Windows&#x27;da oʻrnatish muammolari</a><a href="platform/windows/startup-issues.html">Windows&#x27;da ishga tushirish muammolari</a><a href="platform/windows/display-issues.html">Windows&#x27;da koʻrinish (ekran) muammolari</a><a href="platform/windows/permission-problems.html">Windows&#x27;da ruxsat muammolari</a><a href="platform/windows/copy-and-paste.html">Nusxalash va joylashtirish muammolari</a><a href="platform/windows/text-size.html">Matn oʻlchami</a></div></details><details><summary><a href="platform/mac/intro.html">macOS</a><i class="chev"></i></summary><div class="kids"><a href="platform/mac/installing.html">Anki&#x27;ni macOS&#x27;da oʻrnatish va yangilash</a><a href="platform/mac/display-issues.html">macOS&#x27;da koʻrinish (ekran) muammolari</a></div></details><details><summary><a href="platform/linux/intro.html">Linux</a><i class="chev"></i></summary><div class="kids"><a href="platform/linux/installing.html">Anki&#x27;ni Linux&#x27;da oʻrnatish va yangilash</a><a href="platform/linux/missing-libraries.html">Yetishmayotgan kutubxonalar</a><a href="platform/linux/display-issues.html">Linux&#x27;da koʻrinish (ekran) muammolari</a><a href="platform/linux/blank-window.html">Boʻm-boʻsh asosiy oyna</a><a href="platform/linux/distro-packages.html">Linux distributivlari tarqatadigan paketlar</a><a href="platform/linux/gtk-theme.html">Anki Gnome/Linux&#x27;da GTK mavzusini (theme) qabul qilmayapti</a><a href="platform/linux/wayland.html">Wayland</a><a href="platform/linux/input-methods.html">Linux&#x27;da kiritish usullari</a></div></details></div></details><a href="getting-help.html">Yordam olish</a><a href="studying.html">Oʻrganish</a><a href="editing.html">Qoʻshish va tahrirlash</a><details><summary><a href="templates/intro.html">Karta shablonlari</a><i class="chev"></i></summary><div class="kids"><a href="templates/fields.html">Maydon almashtirishlari</a><a href="templates/generation.html">Karta yaratish</a><a href="templates/styling.html">Bezak va HTML</a><a href="templates/errors.html">Tekshiruvlar va xatolar</a></div></details><a href="preferences.html">Sozlamalar</a><a class="cur" href="deck-options.html">Toʻplam sozlamalari</a><a href="syncing.html">AnkiWeb bilan sinxronlash</a><a href="profiles.html">Profillar</a><a href="browsing.html">Koʻrib chiqish (Browse)</a><a href="filtered-decks.html">Filtrlangan toʻplamlar va imtihonga shoshilinch tayyorlanish</a><a href="searching.html">Qidiruv</a><details><summary><a href="importing/intro.html">Import qilish</a><i class="chev"></i></summary><div class="kids"><a href="importing/text-files.html">Matnli fayllar</a><a href="importing/packaged-decks.html">Paketlangan toʻplamlar</a></div></details><a href="exporting.html">Eksport qilish</a><a href="backups.html">Zaxira nusxalar</a><a href="files.html">Fayllar va kolleksiyani boshqarish</a><a href="stats.html">Karta haqida maʼlumot, grafiklar va statistika</a><a href="media.html">Media</a><a href="math.html">Matematika va belgilar</a><a href="leeches.html">Leech kartalar</a><a href="addons.html">Qoʻshimchalar (Add-ons)</a><a href="troubleshooting.html">Muammolarni bartaraf etish</a><a href="sync-server.html">Oʻz serveringizdagi sinxronlash serveri</a><a href="misc.html">Turli mavzular</a><a href="contributing.html">Hissa qoʻshish</a><a href="resources.html">Resurslar</a></nav><main><div class="doc"><div class="crumb">Kompyuter qoʻllanmasi</div><h1>Toʻplam sozlamalari</h1><p>Toʻplam sozlamalari asosan Anki kartalarni qanday rejalashtirishini boshqaradi.
+Sozlamalarni oʻzgartirishdan oldin bir necha hafta standart qiymatlar bilan
+ishlab, Anki qanday ishlashini his qilib koʻrish tavsiya etiladi. Oʻzgartirishdan
+oldin sozlamalarning maʼnosini yaxshi tushunib oling: xatolar Anki
+samaradorligini pasaytirishi mumkin.</p>
+<p>Kompyuterda toʻplam sozlamalarini ochish uchun quyidagilardan birini bajaring:</p>
+<ul>
+<li><strong>Decks</strong> (Toʻplamlar) ekranidagi tishli gʻildirak belgisini bosing.</li>
+<li><strong>Decks</strong> ekranida toʻplamni tanlang, keyin ekranning pastidagi <strong>Options</strong>
+(Sozlamalar) tugmasini bosing.</li>
+<li>Takrorlash rejimida <strong>More &gt; Options</strong> (Yana &gt; Sozlamalar) ni bosing.</li>
+<li>Takrorlash rejimida <kbd>O</kbd> tugmasini bosing.</li>
+</ul>
+<p>Mana toʻplam sozlamalari haqida jamiyat aʼzolari oldin yozgan baʼzi postlar
+(inglizcha):</p>
+<ul>
+<li><a href="https://forums.ankiweb.net/t/deck-options-explained/213" class="ext">Deck Options Explained</a></li>
+<li><a href="https://forums.ankiweb.net/t/deck-options-in-a-mental-map/15757" class="ext">Deck Options in a Mental Map</a></li>
+</ul>
+<h2 id="sec-1">Presets (Tayyor sozlamalar toʻplami)</h2>
+<p><a id="presets"></a></p>
+<p>Anki sozlamalarni turli toʻplamlar oʻrtasida ulashish imkonini beradi, shunda
+bir nechta toʻplamdagi sozlamalarni birdaniga yangilash osonlashadi. Buning
+uchun sozlamalar _presetlar_ga guruhlanadi. Presetdagi biror sozlamani
+oʻzgartirsangiz, oʻzgarish shu presetdan foydalanadigan barcha toʻplamlarga
+qoʻllanadi. Yangi yaratilgan barcha toʻplamlar &quot;Default&quot; presetidan
+foydalanadi.</p>
+<p>Sozlamalarni faqat bitta toʻplamda oʻzgartirib, boshqalarida oʻzgartirmaslik
+uchun Deck Options oynasining yuqori oʻng burchagidagi strelka belgisini
+bosing. U yerda quyidagilarni qilishingiz mumkin:</p>
+<ul>
+<li><strong>Save</strong> (Saqlash): toʻplam sozlamalarida qilgan barcha oʻzgarishlaringizni
+saqlaydi.</li>
+<li><strong>Add Preset</strong> (Preset qoʻshish): shu toʻplam uchun standart sozlamalarga ega
+yangi preset qoʻshadi.</li>
+<li><strong>Clone</strong> (Nusxalash): joriy presetning nusxasini yaratadi. Baʼzi
+sozlamalarni oʻzgartirib, qolganini oʻz holicha qoldirmoqchi boʻlsangiz,
+foydali.</li>
+<li><strong>Rename</strong> (Nomini oʻzgartirish): joriy preset nomini oʻzgartiradi.</li>
+<li><strong>Delete</strong> (Oʻchirish): joriy presetni oʻchiradi. Bu keyingi
+sinxronlashingizni <a href="syncing.html#conflicts">bir tomonlama sinxronlash</a>ga
+aylantiradi.</li>
+<li><strong>Save to All Subdecks</strong> (Barcha ichki toʻplamlarga saqlash): <strong>Save</strong> kabi,
+lekin tanlangan presetni hozirgi toʻplamning barcha ichki toʻplamlariga ham
+belgilaydi.</li>
+</ul>
+<p>Toʻplam sozlamalari avvalgi kartalarga taʼsir qilmaydi. Masalan, kartaga
+notoʻgʻri javob berilgandan keyingi kutish vaqtini boshqaradigan sozlamani
+oʻzgartirsangiz, oʻzgartirishdan oldin xato qilgan kartalaringiz yangi emas,
+eski kutish vaqti bilan qolaveradi.</p>
+<h2 id="sec-2">Subdecks (Ichki toʻplamlar)</h2>
+<p><a id="subdecks"></a></p>
+<p>Toʻplamingizda ichki toʻplamlar boʻlsa va ulardan bir yoki bir nechtasi
+asosiy toʻplamdan boshqacha sozlamalarga ega boʻlishini xohlasangiz, ularni
+alohida presetlarga biriktirishingiz mumkin. Anki kartani koʻrsatayotganda
+karta qaysi ichki toʻplamda ekanini tekshiradi va oʻsha toʻplam sozlamalaridan
+foydalanadi. Ikkita istisno bor:</p>
+<ul>
+<li>Ichki toʻplamning <strong>New cards/day</strong> (Kuniga yangi kartalar) va <strong>Maximum
+reviews/day</strong> (Kuniga maksimal takrorlashlar) <a href="#daily-limits">chegaralari</a>
+shu ichki toʻplamdan nechta karta olinishi mumkinligiga taʼsir qiladi. Lekin
+oʻqish seansida koʻradigan kartalarning umumiy soni siz oʻqish uchun
+tanlagan toʻplamning chegaralari bilan boshqariladi.</li>
+<li><a href="#display-order">Koʻrsatish tartibi</a> sozlamalari joriy kartaning
+toʻplamidan emas, siz oʻqish uchun tanlagan toʻplamdan olinadi.</li>
+</ul>
+<p>Misol uchun, sizda quyidagi kolleksiya bor deylik:</p>
+<pre><code class="language-text">    - Deck A (Preset 1)
+      - Deck A::Subdeck B (Preset 2)
+</code></pre>
+<p>Preset 1 va Preset 2 ikkita farqdan tashqari bir xil:</p>
+<ul>
+<li>Preset 1:
+<ul>
+<li><strong>Learning steps</strong>: <code>1m 10m</code></li>
+<li><strong>New/review order</strong>: <code>Mix with reviews</code></li>
+</ul>
+</li>
+<li>Preset 2:
+<ul>
+<li><strong>Learning steps</strong>: <code>20m 2h</code></li>
+<li><strong>New/review order</strong>: <code>Show after reviews</code></li>
+</ul>
+</li>
+</ul>
+<p>Subdeck B ni oʻqishni tanlasangiz:</p>
+<ul>
+<li>Barcha yangi kartalar uchun oʻrganish qadamlari <code>20m 2h</code> boʻladi (Preset 2
+qoʻllanadi).</li>
+<li>Barcha yangi kartalar takrorlashlardan keyin koʻrsatiladi (Preset 2
+qoʻllanadi).</li>
+</ul>
+<p>Deck A ni oʻqishni tanlasangiz:</p>
+<ul>
+<li>Deck A dagi yangi kartalar uchun oʻrganish qadamlari <code>1m 10m</code> boʻladi
+(Preset 1 qoʻllanadi).</li>
+<li>Subdeck B dagi yangi kartalar uchun oʻrganish qadamlari <code>20m 2h</code> boʻladi
+(Preset 2 qoʻllanadi).</li>
+<li>Barcha yangi kartalar takrorlashlar bilan aralashtiriladi (Preset 1
+qoʻllanadi).</li>
+</ul>
+<h2 id="sec-3">Daily Limits (Kunlik chegaralar)</h2>
+<p><a id="daily-limits"></a></p>
+<h3 id="sec-4">New Cards/Day (Kuniga yangi kartalar)</h3>
+<p><a id="new-cardsday"></a>
+Bu sozlama dasturni ochgan har bir kuningizda nechta yangi karta kiritilishini
+boshqaradi. Chegaradan kamroq oʻqisangiz yoki bir kunni oʻtkazib yuborsangiz,
+keyingi kuni sonlar yana asl sozlamaga qaytadi: sizga chegara ruxsat bergandan
+koʻp karta berilmaydi.</p>
+<p>Ichida ichki toʻplamlari bor toʻplamni oʻqiyotganda har bir ichki toʻplamga
+qoʻyilgan chegaralar shu toʻplamdan olinadigan kartalarning maksimal sonini
+boshqaradi. Tanlangan toʻplamning chegaralari esa koʻrsatiladigan kartalarning
+umumiy sonini boshqaradi.</p>
+<p>Oldingi versiyalar haqida <a href="https://docs.ankiweb.net/faqs/the-anki-2.1-scheduler" class="ext">bu FAQ sahifasiga</a>
+qarang.</p>
+<p>Yangi kartalarni oʻrganish vaqtincha kuniga qilishingiz kerak boʻlgan
+takrorlashlar sonini oshiradi, chunki yangi oʻrganilgan material takrorlashlar
+oraligʻidagi kutish vaqti sezilarli darajada uzayguncha bir necha marta
+takrorlanishi kerak. Har kuni muntazam 20 ta yangi karta oʻrgansangiz, kunlik
+takrorlashlaringiz taxminan 200 ta karta boʻlishini kutishingiz mumkin.
+Takrorlashlar sonini kamaytirish uchun har kuni kamroq yangi karta kiriting,
+toki takrorlash yuklamangiz kamayguncha. Anki foydalanuvchilarining bir
+nechtasi dasturdan foydalanishning dastlabki kunlarida hayajon bilan yuzlab
+yangi karta oʻrganib, keyin takrorlashlar koʻpligidan charchab qolgan.</p>
+<h3 id="sec-5">Maximum Reviews/Day (Kuniga maksimal takrorlashlar)</h3>
+<p><a id="maximum-reviewsday"></a>
+Har kuni koʻrsatiladigan takrorlash kartalari soniga yuqori chegara
+qoʻyishga imkon beradi. Bu chegaraga yetganda, kutib turgan karta koʻp
+boʻlsa ham, Anki shu kun uchun boshqa takrorlash kartalarini koʻrsatmaydi.
+Muntazam oʻqisangiz, bu sozlama muddati kelgan kartalar sonidagi vaqti-vaqti
+bilan boʻladigan choʻqqilarni tekislashga yordam beradi va bir hafta
+tanaffusdan keyin Anki'ga qaytganingizda yuragingiz yorilib ketishidan
+saqlaydi. Bu sozlama sababli takrorlashlar yashirilgan boʻlsa, tabrik
+ekranida xabar chiqadi va vaqtingiz boʻlsa, chegarani oshirishni oʻylab
+koʻrishni taklif qiladi.</p>
+<p>Ichida ichki toʻplamlari bor toʻplamni oʻqiyotganda takrorlash chegarasi
+yangi kartalar chegarasiga oʻxshash ishlaydi.</p>
+<p>Anki <a href="preferences.html#scheduler">kun chegarasidan oʻtgan</a> har qanday oʻrganish
+kartalarini (interday learning cards) ham takrorlashlar soniga qoʻshadi,
+shuning uchun bunday oʻrganish kartalariga ham takrorlash chegarasi qoʻllanadi.</p>
+<h3 id="sec-6">Per-Deck Daily Limits (Toʻplamga xos kunlik chegaralar)</h3>
+<p><a id="per-deck-daily-limits"></a></p>
+<p>Bir xil presetni turli toʻplamlar uchun ishlatib, har biriga alohida chegara
+qoʻyish mumkin. Bu faqat shu maqsadda preset nusxalarini yaratish zaruratini
+yoʻqotadi va ichki toʻplamlarga maxsus chegaralar qoʻyishni osonlashtiradi.</p>
+<p>Anki kunlik chegaralar uchun uchta variant beradi:</p>
+<ul>
+<li><strong>Preset</strong>: presetdan foydalanadigan barcha toʻplamlarga qoʻllanadi.</li>
+<li><strong>This deck</strong> (Shu toʻplam): faqat aniq bir toʻplam uchun.</li>
+<li><strong>Today only</strong> (Faqat bugun): aniq bir toʻplam uchun va vaqtinchalik.</li>
+</ul>
+<h3 id="sec-7">New Cards Ignore Review Limit (Yangi kartalar takrorlash chegarasini eʼtiborsiz qoldiradi)</h3>
+<p><a id="new-cards-ignore-review-limit"></a></p>
+<p>Standart holatda takrorlash chegarasi yangi kartalarga ham qoʻllanadi va
+takrorlash chegarasiga yetilganda yangi kartalar koʻrsatilmaydi. Bu variant
+yoqilsa, yangi kartalar takrorlash chegarasidan qatʼi nazar koʻrsatiladi.</p>
+<p>Muddati oʻtib ketgan takrorlash kartalaringiz toʻplanib qolgan boʻlsa, shu
+toʻplanib qolganlarni tugatmaguningizcha yangi kartalar kiritishni toʻxtatish
+tavsiya etiladi. Allaqachon ortda qolgan paytingizda yangi karta kiritishda
+davom etish vaziyatni yanada yomonlashtirishi mumkin.</p>
+<h3 id="sec-8">Limits Start From Top (Chegaralar yuqoridan boshlanadi)</h3>
+<p><a id="limits-start-from-top"></a></p>
+<p>Standart holatda yuqori darajadagi toʻplamning kunlik chegaralari siz uning
+ichki toʻplamlaridan birini tanlaganingizda qoʻllanmaydi. Asosiy toʻplamda
+kuniga 10 ta yangi karta chegarasi, uning ichki toʻplamlarida esa kuniga 20 ta
+yangi karta chegarasi boʻlishi mumkin. Asosiy toʻplamga qoʻyilgan chegaralar
+ichki toʻplamdan oʻrganishingiz mumkin boʻlgan yangi kartalar soniga taʼsir
+qilmaydi.</p>
+<p>Bu variant yoqilganda, ichki toʻplam tanlanganida yuqori darajadagi
+toʻplamlarga qoʻyilgan chegaralar ham unga qoʻllanadi. Yuqoridagi misolda
+ichki toʻplamlardan 20 ta emas, faqat 10 ta yangi karta oʻrgana olasiz.</p>
+<p>Bu variant alohida ichki toʻplamlarni oʻrganishni xohlasangiz-u, barcha ichki
+toʻplamlardagi kartalar uchun umumiy chegara qoʻymoqchi boʻlsangiz foydali.</p>
+<h2 id="sec-9">New Cards (Yangi kartalar)</h2>
+<p><a id="new-cards"></a></p>
+<p>Bu yerdagi sozlamalar faqat yangi kartalar va
+<a href="getting-started.html#card-states">oʻrganilayotgan kartalar</a>ga taʼsir qiladi.
+Karta bitirilgandan (yaʼni barcha oʻrganish qadamlaridan oʻtgandan) keyin bu
+boʻlimdagi sozlamalar unga qoʻllanmaydi.</p>
+<h3 id="sec-10">Learning Steps (Oʻrganish qadamlari)</h3>
+<p><a id="learning-steps"></a></p>
+<p>Oʻrganish takrorlashlari sonini va ular oʻrtasidagi kutish vaqtini
+boshqaradi. Bitta yoki bir nechta kutish vaqtini boʻsh joy bilan ajratib
+kiritish kerak. Takrorlash vaqtida har safar <strong>Good</strong> (Yaxshi) ni bosganingizda
+karta keyingi qadamga oʻtadi. Har safar <strong>Again</strong> (Qayta) ni bosganingizda esa
+birinchi qadamga qaytadi.</p>
+<p>Masalan, oʻrganish qadamlaringiz <code>1m 10m 1d</code> deylik.</p>
+<ul>
+<li><strong>Again</strong> ni bossangiz, karta birinchi qadamdan oʻtadi va 1 daqiqadan keyin
+yana koʻrsatiladi.</li>
+<li>Yangi kartada yoki 1 daqiqalik qadamdan keyin <strong>Good</strong> ni bossangiz, karta
+keyingi qadamga oʻtadi va 10 daqiqadan keyin yana koʻrsatiladi.</li>
+<li>10 daqiqalik qadamdan keyin kartada <strong>Good</strong> ni bossangiz, karta keyingi
+kunga qoldiriladi.</li>
+<li>Keyingi kuni kartada <strong>Good</strong> ni bossangiz, karta oʻrganishni bitiradi
+(graduates) va takrorlash kartasiga aylanadi. Karta <em>graduating interval</em>
+(oʻrganishni bitirish intervali) bilan belgilangan kutishdan keyin yana
+koʻrsatiladi.</li>
+</ul>
+<p><strong>Hard</strong> (Qiyin) tugmasi qaysi qadamda ekaningizga qarab turlicha ishlaydi.</p>
+<ul>
+<li>Birinchi qadamda boʻlsangiz, <strong>Hard</strong> tugmasi <code>6m</code> kutishni koʻrsatadi. <code>6m</code>
+— dastlabki ikki qadamning, yaʼni <code>1m</code> va <code>10m</code> ning oʻrtachasi.
+<ul>
+<li>Istisno: faqat bitta oʻrganish qadami boʻlsa, <strong>Hard</strong> tugmasi shu
+qadamdan 1,5 baravar uzoq kutishni koʻrsatadi. Bu kutish oʻrganish
+qadamidan koʻpi bilan 1 kun uzun boʻladi.</li>
+</ul>
+</li>
+<li>Boshqa har qanday qadamda boʻlsangiz, <strong>Hard</strong> tugmasi shu qadamni takrorlaydi.</li>
+</ul>
+<p>Oʻqiydigan boshqa narsa qolmagan boʻlsa, Anki standart holatda oʻrganilayotgan
+kartalarni 20 daqiqagacha oldinroq koʻrsatadi. Buni oʻchirish yoki oldindan
+koʻrish vaqtini oʻzgartirish uchun <a href="preferences.html">Sozlamalar</a> sahifasiga
+qarang.</p>
+<h4>Day Boundaries (Kun chegaralari)</h4>
+<p><a id="day-boundaries"></a></p>
+<p>Anki kichik qadamlar va <a href="preferences.html#review">kun chegarasidan oʻtadigan</a>
+qadamlarga turlicha munosabatda boʻladi. Kichik qadamlarda kutish vaqti
+oʻtishi bilan karta takrorlash va yangi kartalardan ustun qoʻyilib darhol
+koʻrsatiladi. Bu kartaga siz soʻragan kutish vaqtiga iloji boricha yaqin
+paytda javob bera olishingiz uchun qilinadi. Aksincha, qadam kun chegarasidan
+oʻtsa, kutish vaqti avtomatik ravishda kunlarga aylantiriladi. Masalan,
+keyingi kun 5 soatdan keyin boshlanib, kutish vaqti 6 soat boʻlsa, Anki
+kutishni 1 kunga aylantiradi.</p>
+<h3 id="sec-11">Graduating Interval (Oʻrganishni bitirish intervali)</h3>
+<p><a id="graduating-interval"></a></p>
+<p>Oxirgi oʻrganish qadamida Good tugmasi bosilgandan keyin kartani yana
+koʻrsatishdan oldin kutiladigan kunlar soni. Yaʼni bu oʻrganilayotgan karta
+oʻrganishni bitirgandan keyingi birinchi interval. <a href="deck-options.html#learning-steps">Shu boʻlimning
+yuqoridagi</a> misoliga qarang.</p>
+<h3 id="sec-12">Easy Interval (Easy intervali)</h3>
+<p><a id="easy-interval"></a></p>
+<p>Kartada Easy tugmasi bosilgandan keyin uni yana koʻrsatishdan oldin
+kutiladigan kunlar soni.</p>
+<p><strong>Easy</strong> (Oson) tugmasi qaysi qadamda boʻlishidan qatʼi nazar, oʻrganilayotgan
+kartalarni takrorlash kartalariga aylantiradi va ularga bu sozlamada
+belgilangan kutishni beradi. Easy intervali kamida graduating interval
+qadar uzun boʻlishi kerak, odatda esa bir necha kun uzunroq.</p>
+<h3 id="sec-13">Insertion Order (Qoʻshish tartibi)</h3>
+<p><a id="insertion-order"></a></p>
+<p>Anki yangi kartalarni toʻplamga tasodifiy yoki ketma-ket qoʻshishini
+boshqaradi. Bu sozlamani oʻzgartirganingizda, Anki joriy presetdagi
+toʻplamlarni qayta tartiblaydi.</p>
+<p>Anki'ning soʻnggi versiyalarida bu sozlamani <code>Sequential</code> (Ketma-ket) holatida
+qoldirib, oʻrniga <a href="deck-options.html#display-order">koʻrsatish tartibi</a>ni
+sozlashingiz kerak.</p>
+<h2 id="sec-14">Lapses (Unutishlar)</h2>
+<p><a id="lapses"></a></p>
+<p>Takrorlash kartasida <strong>Again</strong> ni bosganingizda, bu <em>lapse</em> (unutish) deb
+ataladi. Bu yerdagi sozlamalar shunday unutilgan kartalarga taʼsir qiladi.</p>
+<h3 id="sec-15">Relearning Steps (Qayta oʻrganish qadamlari)</h3>
+<p><a id="relearning-steps"></a></p>
+<p>Oʻrganish qadamlari bilan bir xil, lekin unutilgan kartalar uchun. Takrorlash
+kartasiga javob bera olmasangiz (<strong>Again</strong> ni bossangiz), karta yana
+takrorlash kartasiga aylanishidan oldin _qayta oʻrganish qadamlari_dan oʻtadi.</p>
+<p>Qadamlarni boʻsh qoldirsangiz, karta qayta oʻrganishni oʻtkazib yuboradi va
+standart holatda unga yangi interval — 1 kun beriladi.</p>
+<h3 id="sec-16">Minimum Interval (Minimal interval)</h3>
+<p><a id="minimum-interval"></a></p>
+<p>Karta qayta oʻrganishni tugatgandan keyin kamida necha kun kutishi kerakligini
+belgilaydi. Standart qiymat — bir kun: qayta oʻrganish tugagach, karta
+keyingi kuni yana koʻrsatiladi.</p>
+<h3 id="sec-17">Leeches (Leech kartalar)</h3>
+<p><a id="leeches"></a></p>
+<p>Anki leech kartalar bilan qanday ishlashini boshqaradi. Batafsil maʼlumot
+uchun <a href="leeches.html">leech kartalar</a> boʻlimiga qarang.</p>
+<h2 id="sec-18">Display Order (Koʻrsatish tartibi)</h2>
+<p><a id="display-order"></a></p>
+<p>Bu boʻlimdagi sozlamalar hozir koʻrsatilayotgan kartaning toʻplamidan emas,
+siz oʻqish uchun tanlagan toʻplamdan olinadi.</p>
+<p>Koʻrsatish tartibi haqida qoʻshimcha maʼlumotni <a href="studying.html#display-order">oʻqish
+boʻlimida</a> topish mumkin.</p>
+<h3 id="sec-19">New Card Gather Order (Yangi kartalarni yigʻish tartibi)</h3>
+<p><a id="new-card-gather-order"></a></p>
+<p>Anki toʻplamdan yangi kartalarni qanday yigʻishini boshqaradi. Variantlar:</p>
+<ul>
+<li>
+<p><strong>Deck</strong> (Toʻplam): har bir ichki toʻplamdan tartib bilan, yuqoridan
+boshlab kartalarni yigʻadi. Har bir ichki toʻplamdagi kartalar pozitsiyasi
+oshib borish tartibida yigʻiladi. Tanlangan toʻplamning kunlik chegarasiga
+yetilsa, yigʻish barcha ichki toʻplamlar tekshirilmasdan toʻxtashi mumkin.
+Bu tartib katta kolleksiyalarda eng tez ishlaydi va yuqoriga yaqinroq
+ichki toʻplamlarga ustunlik berishga imkon beradi.</p>
+<p>Toʻplamlar/ichki toʻplamlar har doim alifbo tartibida joylashadi, shuning
+uchun ularning joylashish tartibini boshqarish uchun nomlariga 001 kabi
+raqamli prefiks qoʻshishingiz mumkin. Elementlarni eng yuqoriga yoki eng
+pastga qoʻyish uchun <code>_</code> va <code>~</code> ni prefiks sifatida ham ishlatishingiz
+mumkin.</p>
+<p>Pozitsiya tartibi dastlab qoʻshish tartibi sozlamasiga bogʻliq boʻlsa-da,
+kartalarni turli usullar bilan qoʻlda
+<a href="browsing.html#cards">qayta joylashtirishingiz</a> mumkin.</p>
+</li>
+<li>
+<p><strong>Deck, then random notes</strong> (Toʻplam, keyin tasodifiy yozuvlar): har bir
+ichki toʻplamdan tartib bilan, yuqoridan boshlab kartalarni yigʻadi. Har
+bir ichki toʻplamdagi kartalar tasodifiy tanlangan yozuvlardan yigʻiladi.</p>
+</li>
+<li>
+<p><strong>Ascending position</strong> (Pozitsiya oshish tartibida): kartalarni pozitsiyasi
+(due #) oshish tartibida yigʻadi, odatda bu eng avval qoʻshilganlari birinchi
+degani.</p>
+</li>
+<li>
+<p><strong>Descending position</strong> (Pozitsiya kamayish tartibida): kartalarni
+pozitsiyasi (due #) kamayish tartibida yigʻadi, odatda bu eng oxirgi
+qoʻshilganlari birinchi degani.</p>
+</li>
+<li>
+<p><strong>Random notes</strong> (Tasodifiy yozuvlar): kartalarni tasodifiy tanlangan
+yozuvlardan yigʻadi.</p>
+</li>
+<li>
+<p><strong>Random cards</strong> (Tasodifiy kartalar): kartalarni tasodifiy tartibda yigʻadi.</p>
+</li>
+</ul>
+<h3 id="sec-20">New Card Sort Order (Yangi kartalarni saralash tartibi)</h3>
+<p><a id="new-card-sort-order"></a></p>
+<p>Yangi kartalar yigʻilgandan keyin qanday saralanishini boshqaradi. Variantlar:</p>
+<ul>
+<li>
+<p><strong>Card type, then order gathered</strong> (Karta turi, keyin yigʻilgan tartib):
+kartalarni karta turi raqami tartibida koʻrsatadi. Har bir karta turi
+raqamidagi kartalar yigʻilgan tartibda koʻrsatiladi. Qardosh kartalarni
+yashirishni oʻchirib qoʻygan boʻlsangiz, bu old→orqa kartalarning barchasi
+orqa→old kartalardan oldin koʻrinishini taʼminlaydi. Bu tartib qardosh
+kartalar bir-biriga juda yaqin chiqmasligini xohlasangiz foydali.</p>
+</li>
+<li>
+<p><strong>Order gathered</strong> (Yigʻilgan tartib): kartalarni aynan yigʻilgan tartibida
+koʻrsatadi. Qardosh kartalarni yashirish oʻchirilgan boʻlsa, bu odatda
+barcha qardosh kartalar ketma-ket chiqishiga olib keladi.</p>
+</li>
+<li>
+<p><strong>Card type, then random</strong> (Karta turi, keyin tasodifiy): kartalarni karta
+turi raqami tartibida koʻrsatadi, lekin har bir karta turi raqamidagi
+kartalarni aralashtiradi. Bu tartib qardosh kartalar bir-biriga juda yaqin
+chiqmasligini, lekin kartalar tasodifiy tartibda chiqishini xohlasangiz
+foydali.</p>
+</li>
+<li>
+<p><strong>Random note, then card type</strong> (Tasodifiy yozuv, keyin karta turi):
+yozuvlarni tasodifiy tanlaydi, keyin ularning barcha qardosh kartalarini
+tartib bilan koʻrsatadi.</p>
+</li>
+<li>
+<p><strong>Random</strong> (Tasodifiy): yigʻilgan kartalarni toʻliq aralashtiradi.</p>
+</li>
+</ul>
+<h3 id="sec-21">New/Review Order (Yangi/takrorlash tartibi)</h3>
+<p><a id="newreview-order"></a></p>
+<p>Yangi kartalar takrorlash kartalari bilan aralashtirilsinmi, ulardan oldin
+koʻrsatilsinmi yoki keyin koʻrsatilsinmi.</p>
+<h3 id="sec-22">Interday Learning/Review Order (Kunlararo oʻrganish/takrorlash tartibi)</h3>
+<p><a id="interday-learningreview-order"></a></p>
+<p>Kun chegarasidan oʻtadigan (qayta) oʻrganish kartalari takrorlash kartalari
+bilan aralashtirilsinmi, ulardan oldin koʻrsatilsinmi yoki keyin
+koʻrsatilsinmi. Oʻrganish kartalari odatda takrorlash kartalaridan qiyinroq
+boʻlgani uchun, baʼzi foydalanuvchilar ularni oxirida koʻrishni (oson
+narsalarni avval bajarib olish uchun) yoki boshida koʻrishni (unutilganlarni
+takrorlashga koʻproq vaqt qoldirish uchun) afzal koʻradi.</p>
+<h3 id="sec-23">Review Sort Order (Takrorlashni saralash tartibi)</h3>
+<p><a id="review-sort-order"></a></p>
+<p>Takrorlash kartalari qanday saralanishini boshqaradi. Variantlar:</p>
+<ul>
+<li>
+<p><strong>Due date, then random</strong> (Muddat, keyin tasodifiy): standart tartib uzoqroq
+kutayotgan kartalarga ustunlik beradi. Ortda qolmagan boʻlsangiz yoki
+toʻplanib qolgan kartalar kam boʻlsa, shu tartib tavsiya etiladi. Uzoq
+tanaffus qilgan boʻlsangiz yoki takrorlashlarda ortda qolgan boʻlsangiz,
+saralash tartibini vaqtincha oʻzgartirishni oʻylab koʻrishingiz mumkin.</p>
+</li>
+<li>
+<p><strong>Due date, then deck</strong> (Muddat, keyin toʻplam): bu ham uzoqroq kutayotgan
+kartalarga ustunlik beradi, keyin har bir ichki toʻplamning takrorlash
+kartalarini navbatma-navbat koʻrsatadi.</p>
+</li>
+<li>
+<p><strong>Deck, then due date</strong> (Toʻplam, keyin muddat): har bir ichki toʻplamning
+takrorlash kartalarini navbatma-navbat koʻrsatadi. Bu tartib odatda tavsiya
+etilmaydi, chunki materialning doim bir xil tartibda chiqishi javobni
+kontekstga qarab topishni osonlashtiradi va zaifroq xotiraga olib keladi.</p>
+</li>
+<li>
+<p><strong>Ascending intervals</strong> (Intervallar oshish tartibida): intervali qisqaroq
+kartalarni birinchi koʻrsatadi.</p>
+</li>
+<li>
+<p><strong>Descending intervals</strong> (Intervallar kamayish tartibida): intervali
+uzunroq kartalarni birinchi koʻrsatadi.</p>
+</li>
+<li>
+<p><strong>Ascending ease</strong> (Ease oshish tartibida): qiyinroq kartalarni birinchi
+koʻrsatadi.</p>
+</li>
+<li>
+<p><strong>Descending ease</strong> (Ease kamayish tartibida): osonroq kartalarni birinchi
+koʻrsatadi.</p>
+</li>
+<li>
+<p><strong>Relative overdueness</strong> (Nisbiy kechikish): unutgan boʻlishingiz ehtimoli
+yuqoriroq kartalarni birinchi koʻrsatadi. Agar tugatish uchun biroz vaqt
+oladigan katta orqada qolgan kartalar toʻplamingiz boʻlsa va koʻproq karta
+unutish ehtimolini kamaytirmoqchi boʻlsangiz, bu odatda tavsiya etiladi.</p>
+<p>SM-2 algoritmidan foydalanilganda kechikish kartalar qanchalik kechikkani
+va intervali qanchalik uzun ekanini solishtirish orqali aniqlanadi.
+Masalan, joriy intervali 5 kun boʻlib, 2 kun kechikkan karta, joriy
+intervali 10 kun boʻlib, 3 kun kechikkan kartadan oldin koʻrsatiladi.</p>
+<p>FSRS yoqilganda bu saralash tartibi olib tashlanadi; uning FSRS’dagi
+ekvivalenti — <strong>Ascending retrievability</strong> (Esga tushirish ehtimoli oshish
+tartibida). U har bir kartaning retrievability (eslab qolish ehtimoli)
+va presetdagi desired retention (istalgan esda saqlash darajasi)
+asosida hisoblanadi.</p>
+</li>
+</ul>
+<h2 id="sec-24">Burying (Yashirish)</h2>
+<p><a id="burying"></a></p>
+<p>Anki kartalarni yigʻayotganda avval kun ichidagi oʻrganish kartalarini,
+keyin kunlararo oʻrganish kartalarini, keyin takrorlash kartalarini va
+oxirida yangi kartalarni yigʻadi. Bu yashirish qanday ishlashiga taʼsir qiladi:</p>
+<ul>
+<li>Barcha yashirish variantlari yoqilgan boʻlsa, shu roʻyxatda eng avval
+keladigan qardosh karta koʻrsatiladi. Masalan, takrorlash kartasi yangi
+kartadan ustun qoʻyilib koʻrsatiladi.</li>
+<li>Roʻyxatda keyinroq keladigan qardosh kartalar oldingi karta turlarini
+yashira olmaydi. Masalan, yangi kartalarni yashirishni oʻchirib qoʻysangiz
+va yangi kartani oʻqisangiz, u kunlararo oʻrganish yoki takrorlash
+kartalarini yashirmaydi va bir seansda ham takrorlash, ham yangi qardosh
+kartani koʻrishingiz mumkin.</li>
+</ul>
+<p>Variantlar:</p>
+<ul>
+<li><strong>Bury new siblings</strong> (Yangi qardosh kartalarni yashirish): bir yozuvning
+boshqa yangi kartalari (masalan, teskari kartalar, qoʻshni cloze deletion
+lar) keyingi kungacha kechiktirilsinmi.</li>
+<li><strong>Bury review siblings</strong> (Takrorlash qardosh kartalarini yashirish): bir
+yozuvning boshqa takrorlash kartalari keyingi kungacha kechiktirilsinmi.</li>
+<li><strong>Bury interday learning siblings</strong> (Kunlararo oʻrganish qardosh
+kartalarini yashirish): bir yozuvning kun chegarasidan oʻtgan boshqa
+oʻrganish kartalari keyingi kungacha kechiktirilsinmi.</li>
+</ul>
+<p>Kartalarni yashirish haqida koʻproq maʼlumot uchun qoʻllanmaning <a href="studying.html#siblings-and-burying">bu
+boʻlimiga</a> qarang.</p>
+<h2 id="sec-25">Audio</h2>
+<p><a id="audio"></a></p>
+<ul>
+<li>
+<p><strong>Don't play audio automatically</strong> (Audioni avtomatik ijro etmaslik):
+standart holatda Anki kartalardagi har qanday audioni avtomatik ijro etadi.
+Bu variantni yoqsangiz, audio qayta ijro tugmasi <kbd>R</kbd> yoki
+<kbd>F5</kbd> bosilmaguncha ijro etilmaydi.</p>
+</li>
+<li>
+<p><strong>Skip question when replaying answer</strong> (Javobni qayta ijro etishda
+savolni oʻtkazib yuborish): javob tomonida qayta ijro amalini
+ishlatganingizda savol tomonidagi audio ijro etilishini boshqaradi.
+Shuni yodda tutingki, Anki <code>{{FrontSide}}</code> maydonidagi audioni <a href="templates/fields.html#special-fields">avtomatik
+ijro etmaydi</a>. Bu variant avtomatik
+ijro xulqiga taʼsir qilmaydi.</p>
+</li>
+</ul>
+<h2 id="sec-26">Timers (Taymerlar)</h2>
+<p><a id="timers"></a></p>
+<p><span id="timer"></span></p>
+<p>Anki har bir kartaga javob berish uchun qancha vaqt ketishini kuzatib boradi,
+shunda har kuni oʻqishga qancha vaqt sarflanganini koʻrsata oladi. Sarflangan
+vaqt rejalashtirishga taʼsir qilmaydi.</p>
+<h3 id="sec-27">Internal Timer (Ichki taymer)</h3>
+<p><a id="internal-timer"></a></p>
+<ul>
+<li>Maximum answer seconds (Javob uchun maksimal soniyalar): standart chegara
+— 60 soniya. Bundan uzoqroq vaqt olsangiz, Anki kompyuteringiz oldidan
+turib ketgansiz yoki chalgʻigansiz deb hisoblaydi va qayd etilgan vaqtni 60
+soniya bilan cheklaydi, shunda statistikangiz notoʻgʻri boʻlib qolmaydi.</li>
+<li>Bu ichki taymer savol koʻrsatilgan paytdan javobingizni baholash uchun
+tugmani bosguningizcha ishlaydi. Kartaga doim 60 soniyadan koʻproq vaqt
+sarflasangiz, bu chegarani oshirishni yoki yana ham yaxshisi, kartalaringizni
+soddalashtirishni oʻylab koʻring.</li>
+</ul>
+<h3 id="sec-28">On-screen Timer (Ekrandagi taymer)</h3>
+<p><a id="on-screen-timer"></a></p>
+<ul>
+<li>Show on-screen timer (Ekrandagi taymerni koʻrsatish): Study (Oʻrganish)
+ekranida har bir kartani oʻrganishga ketayotgan vaqtni sanaydigan taymerni
+koʻrsatadi. (Bu taymer ichki taymer uchun belgilangan Maximum answer seconds
+ga yetganda toʻxtaydi.)</li>
+<li>Stop on-screen timer on answer (Javob berilganda ekrandagi taymerni
+toʻxtatish): ekrandagi taymer javobni koʻrsatgan paytingizdan javobingizni
+baholash uchun tugmani bosguningizcha ishlashda davom etishi kerakmi.
+Bu sozlama statistikangiz uchun qayd etiladigan vaqtga taʼsir qilmaydi.</li>
+</ul>
+<h2 id="sec-29">Auto Advance (Avtomatik oʻtish)</h2>
+<p><a id="auto-advance"></a></p>
+<p>Anki 23.12 yoki undan yangi versiya kerak. Auto Advance belgilangan vaqt
+oʻtgach baʼzi amallarni avtomatik bajarish imkonini beradi. Undan foydalanish
+uchun avval <strong>Seconds to show question for</strong> (Savolni koʻrsatish soniyalari)
+va/yoki <strong>Seconds to show answer for</strong> (Javobni koʻrsatish soniyalari) ga
+noldan katta vaqt qoʻyishingiz kerak. Keyin oʻrganish ekranida <strong>More</strong>
+(Yana) tugmasidan Auto Advance amalini tanlab, avtomatik oʻtishni boshlang.</p>
+<h2 id="sec-30">Easy Days (Yengil kunlar)</h2>
+<p><a id="easy-days"></a></p>
+<p>Haftaning baʼzi kunlarida, masalan yakshanba kunlari, Anki'ga kamroq vaqt
+sarflamoqchi boʻlsangiz, bu funksiya yordam beradi. Interval hisoblangandan
+keyin muddat sanasini oʻzgartirish uchun u ozgina moslashtiriladi. Shuni
+yodda tutingki, barcha kunlarni &quot;Reduced&quot; yoki &quot;Minimum&quot; ga qoʻyish barcha
+kunlarni &quot;Normal&quot; ga qoʻygan bilan bir xil ish yuklamasini beradi. Bu
+funksiya ham FSRS bilan, ham eski SM-2 algoritmi bilan ishlaydi. Easy Days
+sozlamasini oʻzgartirish mavjud intervallarni orqaga qarab oʻzgartirmaydi
+va faqat kelajakdagi intervallarga taʼsir qiladi. Oddiy qilib aytganda,
+muddati kelgan kartalar sonida darhol oʻzgarish koʻrmaysiz.</p>
+<h2 id="sec-31">FSRS</h2>
+<p><a id="fsrs"></a></p>
+<p><a href="https://github.com/open-spaced-repetition/fsrs4anki/wiki/ABC-of-FSRS" class="ext">Free Spaced Repetition Scheduler (FSRS)</a>
+— Anki'ning eski SuperMemo 2 (SM-2) algoritmiga muqobil. U qancha maʼlumotni
+unutishingiz mumkinligini aniqroq baholash orqali, bir xil vaqt ichida koʻproq
+materialni eslab qolishga yordam beradi.</p>
+<p>FSRS’ni yoqsangiz, baʼzi yangi sozlamalar paydo boʻladi, <strong>Graduating
+interval</strong>, <strong>Easy bonus</strong> kabi SM-2 ga xos sozlamalar esa yashiriladi. Bu
+sozlama barcha presetlar uchun umumiy.</p>
+<p><strong>Yoqishdan oldin</strong></p>
+<ul>
+<li>Barcha Anki klientlaringiz FSRS’ni qoʻllab-quvvatlashiga ishonch hosil
+qiling. Anki 23.10, AnkiMobile 23.10 va AnkiWeb uni qoʻllab-quvvatlaydi.
+AnkiDroid uni 2.17+ versiyalarda qoʻllab-quvvatlaydi. Klientlaringizdan biri
+qoʻllab-quvvatlamasa, hammasi toʻgʻri ishlamaydi.</li>
+<li>Ilgari FSRS’ning &quot;custom scheduling&quot; (maxsus rejalashtirish) versiyasidan
+foydalangan boʻlsangiz, FSRS’ni yoqishdan oldin maxsus rejalashtirish
+boʻlimini tozalab oling.</li>
+</ul>
+<h3 id="sec-32">A Short Guide (Qisqa qoʻllanma)</h3>
+<p><a id="a-short-guide"></a></p>
+<ul>
+<li>FSRS’ni toʻplam sozlamalari sahifasining pastidagi &quot;FSRS&quot; boʻlimida yoqing.
+FSRS faqat global yoqilishi mumkin: uni baʼzi presetlar uchun yoqib, boshqalari
+uchun oʻchirib qoʻyib boʻlmaydi.</li>
+<li>Barcha oʻrganish va qayta oʻrganish qadamlaringiz 1d dan qisqa va bir kun
+ichida tugatiladigan boʻlishiga ishonch hosil qiling. 23h bir kundan kam
+boʻlsa ham tavsiya etilmaydi, chunki bu qadamni birinchi takrorlashingiz bilan
+bir kunda tugata olmaysiz. 10m yoki 30m kabi qadamlar yaxshi.</li>
+<li>&quot;FSRS parameters&quot; maydoni ostidagi &quot;Optimize&quot; tugmasini bosing. &quot;The FSRS
+parameters currently appear to be optimal&quot; degan xabarni koʻrsangiz, bu
+yaxshi.</li>
+<li>Desired retention (istalgan esda saqlash darajasi) qiymatini tanlang: muddati
+kelganda muvaffaqiyatli eslangan kartalar ulushi. <strong>Bu FSRS’dagi eng muhim
+sozlama. Yuqoriroq retention intervallarning qisqarishiga va kuniga koʻproq
+takrorlashga olib keladi.</strong> Standart qiymat — 90%, bu esda saqlash va ish
+yuklamasi oʻrtasida yaxshi muvozanat beradi. 90% dan yuqorida ish yuklamasi
+juda tez oshadi, 97% dan yuqorida esa ish yuklamasi ortiqcha boʻlib ketishi
+mumkin. Desired retention qiymatini tanlashda
+<a href="#compute-minimum-recommended-retention">&quot;Compute minimum recommended retention&quot;</a>
+dan foydalanishingiz mumkin.</li>
+</ul>
+<p>Parametrlar va desired retention presetga xos, shuning uchun turli sozlamali
+bir nechta preset yaratishingiz mumkin.</p>
+<p>FSRS deyarli har qanday odatga moslasha oladi, faqat bittasidan tashqari:
+maʼlumotni unutganingizda &quot;Again&quot; oʻrniga &quot;Hard&quot; ni bosish. &quot;Hard&quot; ni
+bossangiz, FSRS maʼlumotni toʻgʻri esladingiz (ikkilanib va koʻp aqliy kuch
+sarflab boʻlsa ham) deb hisoblaydi. Maʼlumotni eslay olmaganingizda &quot;Hard&quot;
+ni bossangiz, barcha intervallar asossiz darajada baland boʻlib ketadi.
+Shuning uchun bunday odatingiz boʻlsa, uni oʻzgartiring va maʼlumotni
+unutganingizda &quot;Again&quot; dan foydalaning.</p>
+<p>Qoʻshimchalar (add-on) bilan moslik haqida umumiy qoida: agar qoʻshimcha
+qandaydir tarzda intervallar va rejalashtirishga taʼsir qilsa, uni FSRS bilan
+ishlatmaslik kerak.</p>
+<h3 id="sec-33">Desired Retention (Istalgan esda saqlash darajasi)</h3>
+<p><a id="desired-retention"></a></p>
+<p>Desired retention kartalar takrorlashga rejalashtirilgan paytda ularni
+eslash ehtimolingiz qanchalik yuqori boʻlishini boshqaradi. Standart 90%
+qiymat kartalarni takrorlashga qaytganda ularni eslash ehtimolingiz 90% boʻladigan
+qilib rejalashtiradi. Bu odatda takrorlashda kartalarning taxminan 90% ini
+eslash va faqat taxminan 10% ida xato qilish degani.</p>
+<p>Mana desired retention'ni oʻzgartirish ish yuklamangizga qanday taʼsir
+qilishini koʻrsatuvchi grafik:</p>
+<p><img src="media/FSRS_retention.png" alt="graph showing an exponential increase in workload as desired retention nears one." /></p>
+<p>Grafikning aniq shakli har kim uchun boshqacha. Biroq umumiy shakli taxminan
+bir xil. Umuman olganda, desired retention pastroq boʻlsa, kuniga ancha kam
+takrorlash qilasiz, lekin koʻproq karta ham unutasiz. Desired retention 100%
+ga yaqinlashgan sari ish yuklamasi keskin oshadi. Shu sababli bu sonni
+oʻzgartirganda ehtiyotkor boʻlishni va uni 97% dan past ushlashni tavsiya
+qilamiz.</p>
+<p>Anki'ning soʻnggi versiyasida bir presetdagi turli toʻplamlar uchun turli
+desired retention qiymatlarini oʻrnatishingiz mumkin.</p>
+<h3 id="sec-34">Help Me Decide (Qaror qabul qilishga yordam)</h3>
+<p><a id="help-me-decide"></a></p>
+<p><strong>Help Me Decide (Experimental)</strong> turli esda saqlash darajalarida ish
+yuklamasini simulyatsiya qilish imkonini beradi. Boshqacha aytganda, oʻzingizga
+xos retention-ish yuklamasi grafigi qanday koʻrinishini bilib olishingiz
+mumkin. Bu ehtiyojlaringizga qaysi desired retention qiymati eng mosligini
+tanlashga yordam beradi.</p>
+<p>Bu maʼlumotni nima qilishni bilmasangiz, oʻzingizdan &quot;Kuniga real ravishda
+nechta takrorlash qila olaman?&quot; yoki &quot;Kuniga takrorlashlarga real ravishda
+necha daqiqa sarflay olaman?&quot; deb soʻrab, qaysi desired retention qiymati
+sizga maqbul ish yuklamasini berishini mos grafikdan tekshirib koʻrishingiz
+mumkin.</p>
+<p>Yoki <em>joriy</em> desired retention'dagi kuniga takrorlashlar sonini (yoki kuniga
+vaqtni) tekshirib, desired retention'ni oʻzgartirsangiz bu qanday
+oʻzgarishini koʻrishingiz va oʻzingizdan &quot;Shuncha koʻproq eslab qolish
+uchun shuncha koʻproq oʻqishni xohlaymanmi?&quot; yoki &quot;Shuncha kamroq eslab
+qolish evaziga shuncha kamroq oʻqishni xohlaymanmi?&quot; deb soʻrashingiz mumkin.</p>
+<p>Simulyator haqida koʻproq maʼlumot uchun <a href="deck-options.html#the-simulator">bu boʻlimni</a>
+oʻqing.</p>
+<h3 id="sec-35">FSRS Parameters (FSRS parametrlari)</h3>
+<p><a id="fsrs-parameters"></a></p>
+<p>FSRS parametrlari kartalar qanday rejalashtirilishiga taʼsir qiladi.
+Parametrlarni qoʻlda oʻzgartirmang va ularni boshqa birovdan nusxalamang.</p>
+<p><strong>Optimize FSRS Parameters</strong> (FSRS parametrlarini optimallashtirish)</p>
+<p>FSRS optimizatori xotira qonuniyatlaringizni oʻrganish va takrorlash
+tarixingizga eng mos keladigan parametrlarni topish uchun mashinaviy
+oʻrganishdan foydalanadi. Buning uchun optimizatorga parametrlarni nozik
+sozlash uchun bir necha takrorlash kerak boʻladi.</p>
+<p><strong>Optimize</strong> tugmasini bosganingizda FSRS takrorlash tarixingizni tahlil
+qiladi va xotirangiz hamda oʻrganayotgan kontentingiz uchun eng maqbul
+parametrlarni hosil qiladi. Subyektiv qiyinligi juda farq qiladigan
+toʻplamlaringiz boʻlsa, ularga alohida presetlar berish tavsiya etiladi,
+chunki osonroq toʻplamlarning parametrlari qiyinroq toʻplamlarnikidan
+farq qiladi. Parametrlarni tez-tez optimallashtirish shart emas: oyda bir
+marta yetarli.</p>
+<p>Standart holatda parametrlar joriy presetdan foydalanadigan barcha
+toʻplamlarning takrorlash tarixidan hisoblanadi. Optimallashtirish uchun
+qaysi kartalar ishlatilishini oʻzgartirmoqchi boʻlsangiz, parametrlarni
+optimallashtirishdan oldin <a href="searching.html">qidiruvni sozlashingiz</a> mumkin.</p>
+<p>Shuningdek, <strong>Optimize All Presets</strong> (Barcha presetlarni optimallashtirish)
+ni bosib, barcha presetlaringiz parametrlarini birdaniga optimallashtirishingiz
+mumkin.</p>
+<p><strong>Health Check</strong> (Sogʻlik tekshiruvi)</p>
+<p>FSRS takrorlash tarixingizga qanchalik yaxshi moslasha olishini tekshirish
+uchun <strong>Check health when optimizing (slow)</strong> (Optimallashtirishda sogʻliqni
+tekshirish (sekin)) ni yoqishingiz mumkin. FSRS yaxshi ishlamasligining
+baʼzi keng tarqalgan sabablari:</p>
+<ul>
+<li>Takrorlashlar soni kam (bir necha yuzdan kam). Mashinaviy oʻrganish
+algoritmi sifatida FSRS'ga oʻrganish uchun maʼlumot kerak.</li>
+<li><a href="studying.html#answer-buttons">Hard'dan notoʻgʻri foydalanish</a>. Hard
+javobni unutganingizda ishlatilmasligi <strong>kerak</strong>; u oʻtgan baho, yiqilgan
+baho emas.</li>
+<li>Javobni unutganingizda Again ni ishlatmaslik. Anki javobni unutsangiz Again
+ni, eslasangiz Hard/Good/Easy ni bosasiz deb hisoblaydi.</li>
+</ul>
+<h3 id="sec-36">Reschedule Cards on Change (Oʻzgarganda kartalarni qayta rejalashtirish)</h3>
+<p><a id="reschedule-cards-on-change"></a></p>
+<p>Bu sozlama FSRS’ni yoqqaningizda, desired retention'ni yoki parametrlarni
+oʻzgartirganingizda kartalarning muddat sanalari oʻzgartirilishini
+boshqaradi. Standart holatda kartalar qayta rejalashtirilmaydi: kelajakdagi
+takrorlashlar yangi rejalashtirishdan foydalanadi, lekin ish yuklamangizda
+darhol oʻzgarish boʻlmaydi. Qayta rejalashtirish yoqilsa, kartalarning
+muddat sanalari oʻzgaradi. Desired retention'ingizga qarab, bu koʻpincha
+koʻp sonli kartalarning muddati kelib qolishiga olib keladi, shuning uchun
+SM-2 dan birinchi marta oʻtayotganda <strong>bu variant tavsiya etilmaydi</strong>.</p>
+<p>Bu variantdan kamdan-kam foydalaning, chunki u har bir kartangizga takrorlash
+yozuvi qoʻshadi va kolleksiyangiz hajmini oshiradi.</p>
+<p>SM-2 dan birinchi marta oʻtayotgan boʻlsangiz-u, baribir bu variantdan
+foydalanmoqchi boʻlsangiz, avval zaxira nusxa yaratib, FSRS’ni qayta
+rejalashtirish bilan yoqishni, keyin kerak boʻlsa, bekor qilishni yoki zaxira
+nusxadan tiklashni tavsiya qilamiz.</p>
+<h3 id="sec-37">Compute Minimum Recommended Retention (&lt;25.07) (Minimal tavsiya etilgan esda saqlashni hisoblash)</h3>
+<p><a id="compute-minimum-recommended-retention"></a></p>
+<div class="callout warning">
+<p><em><strong>Olib tashlangan funksiya</strong></em></p>
+<p>Bu funksiya Anki 25.07 versiyasidan boshlab olib tashlangan</p>
+</div>
+<p>Compute minimum recommended retention (CMRR) eng kam vaqt ichida eng koʻp
+material oʻrganishga olib keladigan desired retention qiymatini topishga
+harakat qiladi. Hisoblangan son desired retention'ni nimaga qoʻyishni
+hal qilishda yoʻl-yoʻriq boʻlishi mumkin. Esda saqlash darajasini oshirish
+evaziga koʻproq oʻqish vaqtini sarflashga tayyor boʻlsangiz, yuqoriroq desired
+retention tanlashni xohlashingiz mumkin. Biroq desired retention'ni
+minimaldan pastroq qoʻyish tavsiya etilmaydi, chunki koʻproq unutish tufayli
+keragidan koʻp vaqt sarflaysiz.</p>
+<h3 id="sec-38">The Simulator (Simulyator)</h3>
+<p><a id="the-simulator"></a></p>
+<p>Simulyatordan ish yuklamangizning kuniga takrorlashlar soni yoki kuniga
+oʻqish daqiqalarida hisoblangan taxminini olish uchun foydalanishingiz mumkin.</p>
+<ul>
+<li><strong>Days to simulate</strong> (Simulyatsiya kunlari) simulyatsiya qilinadigan
+oʻqish tarixining davomiyligini boshqaradi.</li>
+<li><strong>Additional new cards to simulate</strong> (Simulyatsiya uchun qoʻshimcha yangi
+kartalar) simulyator bu preset allaqachon ega boʻlganidan koʻproq kartani
+simulyatsiya qilishini boshqaradi. Masalan, hozir bu presetda 100 ta kartangiz
+bor va <strong>Additional new cards to simulate</strong> ni 50 ga qoʻysangiz, simulyator
+jami 150 ta kartani simulyatsiya qiladi. Kelajakda koʻproq yangi karta
+yaratishni rejalashtirgan boʻlsangiz, bu foydali boʻlishi mumkin.</li>
+<li><strong>New cards/day</strong> va <strong>Maximum reviews/day</strong> har kuni nechta yangi karta
+oʻrganilishi va kuniga maksimal nechta takrorlash boʻlishini boshqaradi.</li>
+<li><strong>Maximum interval</strong> (Maksimal interval) maksimal interval uzunligini
+(kunlarda) boshqaradi.</li>
+</ul>
+<p>Simulyatsiyani iloji boricha real qilish uchun simulyator kartalaringizning
+haqiqiy xotira holatlarini (difficulty — qiyinlik, stability — barqarorlik,
+retrievability — esga tushirish ehtimoli) hisobga oladi. U shuningdek FSRS
+parametrlaringiz va desired retention qiymatidan foydalanadi, shuning uchun
+ularni oʻzgartirish simulyatsiyaga taʼsir qiladi.</p>
+<h4>Learning and Relearning Steps (Oʻrganish va qayta oʻrganish qadamlari)</h4>
+<p><a id="learning-and-relearning-steps"></a></p>
+<p>FSRS ishlatilganda 1 kun yoki undan uzun (qayta) oʻrganish qadamlari tavsiya
+etilmaydi. Ularning eski SM-2 algoritmida mashhur boʻlishining asosiy sababi:
+karta oʻrganish bosqichini tugatgandan keyin qayta-qayta xato qilinsa, uning
+ease'i ancha pasayib ketishi mumkin edi, bu baʼzilar &quot;ease hell&quot; (ease
+jahannami) deb ataydigan holatga olib kelardi. FSRS bu muammodan aziyat
+chekmaydi. Oʻrganish qadamlaringizni bir kundan qisqa saqlash orqali FSRS'ga
+kartalarni materialingiz va xotirangiz uchun maqbul deb hisoblagan vaqtlarda
+rejalashtirishga imkon berasiz. Uzunroq oʻrganish qadamlaridan foydalanmaslikning
+yana bir sababi: FSRS birinchi takrorlashni oxirgi oʻrganish qadamingizdan
+qisqaroq vaqtga rejalashtirib qoʻyishi mumkin, bu esa <strong>Hard</strong> tugmasi
+<strong>Good</strong> dan uzunroq vaqtni koʻrsatishiga olib keladi.</p>
+<p>Shuningdek, oʻrganish qadamlari sonini minimal darajada saqlashni tavsiya
+qilamiz. Dalillar shuni koʻrsatadiki, kartani bir kun ichida bir necha marta
+takrorlash uzoq muddatli xotiraga sezilarli hissa qoʻshmaydi, shuning uchun
+vaqtingiz boshqa kartalarga yoki qisqaroq oʻqish seansiga sarflansa, yaxshiroq.</p>
+<p>Anki'ning soʻnggi versiyasida (qayta) oʻrganish qadamlari maydonini boʻsh
+qoldirib, qisqa muddatli rejalashtirishni FSRS'ga topshirishingiz mumkin. Bu
+eksperimental funksiya. Shuni yodda tutingki, FSRS-5 sizga bir kundan qisqa
+intervallar <em>berishi mumkin</em> ekani, albatta <em>beradi</em> degani emas. Sizning
+<strong>Again</strong> intervalingiz bir kun yoki undan ham uzun boʻlishi mumkin.</p>
+<h4>Add-On Compatibility (Qoʻshimchalar bilan moslik)</h4>
+<p><a id="add-on-compatibility"></a></p>
+<p>Baʼzi qoʻshimchalar FSRS bilan ziddiyat keltirib chiqarishi mumkin. Umumiy
+qoida: agar qoʻshimcha kartaning intervallariga taʼsir qilsa, uni FSRS bilan
+ishlatmaslik kerak. Keng tarqalgan qoʻshimchalar va ularning FSRS bilan
+moslik roʻyxatini <a href="https://github.com/open-spaced-repetition/fsrs4anki#add-on-compatibility" class="ext">Add-on Compatibility</a>
+sahifasida topish mumkin.</p>
+<h4>More (Yana)</h4>
+<p><a id="more"></a></p>
+<p>FSRS haqidagi koʻp soʻraladigan savollarga <a href="https://docs.ankiweb.net/faqs/frequently-asked-questions-about-fsrs" class="ext">uning FAQ sahifasida</a>
+javob berilgan.</p>
+<p>FSRS haqida koʻproq maʼlumot uchun quyidagilarni koʻring:</p>
+<ul>
+<li><a href="https://github.com/open-spaced-repetition/fsrs4anki/wiki" class="ext">FSRS4Anki Wiki</a></li>
+<li><a href="https://github.com/open-spaced-repetition/fsrs4anki" class="ext">FSRS4Anki on Github</a></li>
+</ul>
+<h2 id="sec-39">Advanced (Qoʻshimcha sozlamalar)</h2>
+<p><a id="advanced"></a></p>
+<h3 id="sec-40">Maximum Interval (Maksimal interval)</h3>
+<p><a id="maximum-interval"></a></p>
+<p>Takrorlash kartasi yana koʻrsatilgunicha kutishi mumkin boʻlgan maksimal
+kunlar soni. Takrorlashlar chegaraga yetganda <strong>Hard</strong>, <strong>Good</strong> va <strong>Easy</strong>
+bir xil kutish vaqtini beradi. Uni qanchalik qisqa qoʻysangiz, ish
+yuklamangiz shunchalik koʻp boʻladi. Standart qiymat — 100 yil; yuqoriroq
+esda saqlash uchun qoʻshimcha oʻqish vaqtini sarflashga tayyor boʻlsangiz,
+buni kichikroq songa tushirishingiz mumkin.</p>
+<h3 id="sec-41">Historical Retention (Tarixiy esda saqlash)</h3>
+<p><a id="historical-retention"></a></p>
+<p>Bu sozlama FSRS yoqilmaguncha yashirin.</p>
+<p>Takrorlash tarixingizning baʼzi qismi yoʻq boʻlsa, FSRS boʻshliqlarni
+toʻldirishi kerak. Standart holatda u eski takrorlashlarni qilganingizda
+materialning 90% ini eslagansiz deb hisoblaydi. Eski esda saqlash darajangiz
+90% dan sezilarli darajada yuqori yoki past boʻlgan boʻlsa, bu sozlamani
+oʻzgartirish FSRS'ga yoʻq takrorlashlarni yaxshiroq taxmin qilish imkonini
+beradi.</p>
+<p>Takrorlash tarixingiz ikki sababga koʻra toʻliq boʻlmasligi mumkin:</p>
+<ul>
+<li><strong>Ignore cards reviewed before</strong> (Shundan oldin takrorlangan kartalarni
+eʼtiborsiz qoldirish) variantidan foydalanayotganingiz uchun.</li>
+<li>Joy boʻshatish uchun takrorlash jurnallarini oʻchirib tashlagan yoki
+boshqa SRS dasturidan material import qilgan boʻlsangiz.</li>
+</ul>
+<p>Ikkinchisi ancha kam uchraydi, shuning uchun birinchi variantdan
+foydalanmasangiz, bu sozlamani oʻzgartirishingiz shart emas.</p>
+<h3 id="sec-42">Ignore Cards Reviewed Before (Shundan oldin takrorlangan kartalarni eʼtiborsiz qoldirish)</h3>
+<p><a id="ignore-cards-reviewed-before"></a></p>
+<p>Belgilansa, kiritilgan sanadan oldin takrorlangan kartalar FSRS
+parametrlarini optimallashtirishda eʼtiborsiz qoldiriladi. Bu boshqa birovning
+rejalashtirish maʼlumotlarini import qilgan boʻlsangiz yoki javob tugmalaridan
+foydalanish usulingizni oʻzgartirgan boʻlsangiz foydali boʻlishi mumkin.</p>
+<h3 id="sec-43">Starting Ease (Boshlangʻich ease)</h3>
+<p><a id="starting-ease"></a></p>
+<p>Kartalar qanday ease bilan boshlanishini boshqaradi. U karta birinchi marta
+oʻrganishni bitirganda oʻrnatiladi. Standart qiymat — 2,50. Yaʼni kartani
+oʻrganib boʻlgandan keyin keyingi takrorlashlarda <strong>Good</strong> deb javob
+bersangiz, kutish vaqti taxminan 2,5 barobar oshadi (masalan, oxirgi kutish
+10 kun boʻlsa, keyingisi taxminan 25 kun boʻladi). Keyingi takrorlashlarda
+kartani qanday baholashingizga qarab, ease boshlangʻich qiymatidan oshishi
+yoki kamayishi mumkin.</p>
+<h3 id="sec-44">Easy Bonus (Easy bonusi)</h3>
+<p><a id="easy-bonus"></a></p>
+<p>Takrorlash kartasiga <strong>Easy</strong> deb javob berilganda intervalga qoʻllanadigan
+qoʻshimcha koʻpaytirgich. Standart 1,30 qiymatda <strong>Easy</strong> Good intervalidan
+1,3 barobar uzun interval beradi (masalan, Good intervali 10 kun boʻlsa,
+Easy intervali taxminan 13 kun boʻladi).</p>
+<h3 id="sec-45">Interval Modifier (Interval koʻpaytirgichi)</h3>
+<p><a id="interval-modifier"></a></p>
+<p>Barcha takrorlashlarga qoʻllanadigan qoʻshimcha koʻpaytirgich. Standart 1,00
+qiymatda u hech narsa qilmaydi. Uni 0,80 ga qoʻysangiz, intervallar odatdagi
+oʻlchamining 80% ida hosil qilinadi (10 kunlik interval 8 kunga aylanadi).
+Shunday qilib, koʻpaytirgich yordamida takrorlashlaringizni kamroq yoki
+koʻproq tez-tez qilishingiz mumkin.</p>
+<p>Oʻrtacha qiyinlikdagi material uchun oʻrtacha foydalanuvchi takrorlashga
+kelganda pishgan kartalarning taxminan 90% ini eslashini kuzatadi. Oʻz
+natijangizni toʻplam uchun grafiklar/statistikani ochib, Answer Buttons
+grafigiga qarab bilib olishingiz mumkin — pishgan kartalar bilan esda saqlash
+grafikning oʻng tomonidagi toʻgʻri javoblar foizidir. Uzoq oʻqimagan boʻlsangiz,
+hali pishgan kartalaringiz boʻlmasligi mumkin. Yangi va yoshroq kartalar
+bilan natija ancha farq qilishi mumkin, shuning uchun esda saqlash
+darajangiz haqida xulosa chiqarishni boshlashdan oldin maʼqul miqdordagi
+pishgan takrorlashlar toʻplanishini kutgan yaxshi.</p>
+<p>SuperMemo veb-saytida desired retention uchun mos koʻpaytirgichni topish
+mumkinligi aytiladi. Ularning formulasi quyidagiga keladi:</p>
+<pre><code class="language-text">    log(desired retention%) / log(current retention%)
+</code></pre>
+<p>Aytaylik, hozirgi esda saqlash darajamiz 85% va uni 90% ga oshirmoqchimiz.
+Koʻpaytirgichni quyidagicha hisoblaymiz:</p>
+<pre><code class="language-text">    log(90%) / log(85%) = 0.65
+</code></pre>
+<p>Buni <a href="https://duckduckgo.com/?q=log(0.90)+%2F+log(0.85)" class="ext">istalgan qidiruv tizimida hisoblashingiz</a> mumkin.</p>
+<p>Hosil boʻlgan 65% ni interval koʻpaytirgichiga kiritsangiz, vaqt oʻtishi
+bilan esda saqlash darajangiz xohlagan darajangizga yaqinlashishini koʻrasiz.</p>
+<p>Biroq bir muhim narsani yodda tutish kerak: oʻqishga sarflangan vaqt va
+esda saqlash oʻrtasidagi bogʻliqlik chiziqli emas. Bu yerda koʻrib turibmizki,
+esda saqlashni 5 foiz punktga oshirish uchun 35% tez-tez oʻqishimiz
+kerak boʻladi. Oʻrganayotgan materialingiz juda muhim boʻlsa, qoʻshimcha
+mehnat arziydi — albatta, buni oʻzingiz hal qilishingiz kerak. Agar siz
+shunchaki juda koʻp unutayotganingizdan xavotirda boʻlsangiz, dastlabki
+oʻrganish bosqichiga koʻproq vaqt sarflash yoki mnemonikadan foydalanish kam
+mehnat evaziga koʻproq foyda berishi mumkin.</p>
+<p>Oxirgi eslatma: Anki yangi intervalni avvalgisidan kamida 1 kun uzunroq
+qilishga majbur qiladi, shunda bir xil interval bilan abadiy takrorlab
+qolmaysiz. Maqsadingiz kartani bir necha kun davomida kuniga bir marta
+takrorlash boʻlsa, buni bu koʻpaytirgichni oʻzgartirish orqali emas,
+koʻproq oʻrganish rejimi qadamlarini qoʻyish orqali amalga oshirishingiz
+mumkin.</p>
+<h3 id="sec-46">Hard Interval (Hard intervali)</h3>
+<p><a id="hard-interval"></a></p>
+<p><strong>Hard</strong> tugmasi bosilganda qoʻllanadigan koʻpaytirgich. Foiz oldingi
+intervalga nisbatan olinadi, masalan, standart 1,20 qiymatda 10 kunlik
+intervalli kartaga 12 kun beriladi.</p>
+<h3 id="sec-47">New Interval (Yangi interval)</h3>
+<p><a id="new-interval"></a></p>
+<p>Takrorlash kartasida <strong>Again</strong> tugmasi bosilganda qoʻllanadigan koʻpaytirgich.
+Standart 0,00 qiymat takrorlash kartasini unutganingizda uning kutish vaqti
+nolga tushishini bildiradi (bu <a href="#minimum-interval">minimal interval</a>
+qoʻllanganidan keyin 1 kunga aylanadi).</p>
+<p>Standartdan oʻzgartirilsa, unutilgan kartalar oldingi kutish vaqtining bir
+qismini saqlab qolishi mumkin. Masalan, kartaning intervali 100 kun boʻlsa
+va <strong>New Interval</strong> ni 0,20 ga qoʻysangiz, yangi interval 20 kun boʻladi.</p>
+<p>Intervalning bir qismini saqlab qolish mantiqiy tuyulsa-da, SuperMemo
+kutish vaqtining bir qismini saqlab qolish aslida <a href="https://supermemo.guru/wiki/Post-lapse_stability" class="ext">teskari natija
+berishi mumkinligini</a>
+kuzatgan. Shu sababli uni standart sozlamada qoldirishni tavsiya qilamiz.</p>
+<h3 id="sec-48">Custom Scheduling (Maxsus rejalashtirish)</h3>
+<p><a id="custom-scheduling"></a></p>
+<p>Maxsus rejalashtirish maydoniga oʻz JavaScript kodingizni yozib, Anki
+kartalarni qanday rejalashtirishini koʻproq boshqarishingiz mumkin. Bu global
+sozlama, shuning uchun bu yerga kiritilgan kod har bir presetga qoʻllanadi.</p>
+<p>Mana maxsus rejalashtirish skriptiga misol. Shuni yodda tutingki, Anki'ning
+Qt5 versiyalari uchun kodni transpilyatsiya qilish kerak.</p>
+<pre><code class="language-javascript">// print the existing states
+console.log(JSON.stringify(states, null, 4));
+
+// load the debugger if the web inspector is open
+debugger;
+
+// if the hard button is a learning step, make it
+// a 123 minute delay
+if (states.hard.normal?.learning) {
+    states.hard.normal.learning.scheduledSecs = 123 * 60;
+}
+
+// apply the same change in a rescheduling filtered deck
+if (states.hard.filtered?.rescheduling?.originalState?.learning) {
+    states.hard.filtered.rescheduling.originalState.learning.scheduledSecs = 123 * 60;
+}
+
+// increase ease factor by 0.2 when Easy used on a review
+if (states.good.normal?.review) {
+    states.easy.normal.review.easeFactor = states.good.normal.review.easeFactor + 0.2;
+}
+</code></pre>
+<p>Misol sifatida <a href="https://github.com/open-spaced-repetition/fsrs4anki/blob/main/fsrs4anki_scheduler.js" class="ext">FSRS maxsus rejalashtirish kodini</a>
+ham koʻrishingiz mumkin.</p>
+<p>Kartalarning turli rejalashtirish holatlari <a href="https://github.com/ankitects/anki/blob/main/proto/anki/scheduler.proto" class="ext">SchedulingStates</a>
+da tasvirlangan.</p>
+<div class="pn"><a href="preferences.html"><small>Oldingi</small>Sozlamalar</a><a class="n" href="syncing.html"><small>Keyingi</small>AnkiWeb bilan sinxronlash</a></div></div></main><aside class="toc"><h5><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h14"/></svg> Sahifada</h5><a class="l2" href="#sec-1">Presets (Tayyor sozlamalar toʻplami)</a><a class="l2" href="#sec-2">Subdecks (Ichki toʻplamlar)</a><a class="l2" href="#sec-3">Daily Limits (Kunlik chegaralar)</a><a class="l3" href="#sec-4">New Cards/Day (Kuniga yangi kartalar)</a><a class="l3" href="#sec-5">Maximum Reviews/Day (Kuniga maksimal takrorlashlar)</a><a class="l3" href="#sec-6">Per-Deck Daily Limits (Toʻplamga xos kunlik chegaralar)</a><a class="l3" href="#sec-7">New Cards Ignore Review Limit (Yangi kartalar takrorlash chegarasini eʼtiborsiz qoldiradi)</a><a class="l3" href="#sec-8">Limits Start From Top (Chegaralar yuqoridan boshlanadi)</a><a class="l2" href="#sec-9">New Cards (Yangi kartalar)</a><a class="l3" href="#sec-10">Learning Steps (Oʻrganish qadamlari)</a><a class="l3" href="#sec-11">Graduating Interval (Oʻrganishni bitirish intervali)</a><a class="l3" href="#sec-12">Easy Interval (Easy intervali)</a><a class="l3" href="#sec-13">Insertion Order (Qoʻshish tartibi)</a><a class="l2" href="#sec-14">Lapses (Unutishlar)</a><a class="l3" href="#sec-15">Relearning Steps (Qayta oʻrganish qadamlari)</a><a class="l3" href="#sec-16">Minimum Interval (Minimal interval)</a><a class="l3" href="#sec-17">Leeches (Leech kartalar)</a><a class="l2" href="#sec-18">Display Order (Koʻrsatish tartibi)</a><a class="l3" href="#sec-19">New Card Gather Order (Yangi kartalarni yigʻish tartibi)</a><a class="l3" href="#sec-20">New Card Sort Order (Yangi kartalarni saralash tartibi)</a><a class="l3" href="#sec-21">New/Review Order (Yangi/takrorlash tartibi)</a><a class="l3" href="#sec-22">Interday Learning/Review Order (Kunlararo oʻrganish/takrorlash tartibi)</a><a class="l3" href="#sec-23">Review Sort Order (Takrorlashni saralash tartibi)</a><a class="l2" href="#sec-24">Burying (Yashirish)</a><a class="l2" href="#sec-25">Audio</a><a class="l2" href="#sec-26">Timers (Taymerlar)</a><a class="l3" href="#sec-27">Internal Timer (Ichki taymer)</a><a class="l3" href="#sec-28">On-screen Timer (Ekrandagi taymer)</a><a class="l2" href="#sec-29">Auto Advance (Avtomatik oʻtish)</a><a class="l2" href="#sec-30">Easy Days (Yengil kunlar)</a><a class="l2" href="#sec-31">FSRS</a><a class="l3" href="#sec-32">A Short Guide (Qisqa qoʻllanma)</a><a class="l3" href="#sec-33">Desired Retention (Istalgan esda saqlash darajasi)</a><a class="l3" href="#sec-34">Help Me Decide (Qaror qabul qilishga yordam)</a><a class="l3" href="#sec-35">FSRS Parameters (FSRS parametrlari)</a><a class="l3" href="#sec-36">Reschedule Cards on Change (Oʻzgarganda kartalarni qayta rejalashtirish)</a><a class="l3" href="#sec-37">Compute Minimum Recommended Retention (&lt;25.07) (Minimal tavsiya etilgan esda saqlashni hisoblash)</a><a class="l3" href="#sec-38">The Simulator (Simulyator)</a><a class="l2" href="#sec-39">Advanced (Qoʻshimcha sozlamalar)</a><a class="l3" href="#sec-40">Maximum Interval (Maksimal interval)</a><a class="l3" href="#sec-41">Historical Retention (Tarixiy esda saqlash)</a><a class="l3" href="#sec-42">Ignore Cards Reviewed Before (Shundan oldin takrorlangan kartalarni eʼtiborsiz qoldirish)</a><a class="l3" href="#sec-43">Starting Ease (Boshlangʻich ease)</a><a class="l3" href="#sec-44">Easy Bonus (Easy bonusi)</a><a class="l3" href="#sec-45">Interval Modifier (Interval koʻpaytirgichi)</a><a class="l3" href="#sec-46">Hard Interval (Hard intervali)</a><a class="l3" href="#sec-47">New Interval (Yangi interval)</a><a class="l3" href="#sec-48">Custom Scheduling (Maxsus rejalashtirish)</a></aside></div><script src="search.js"></script><script src="app.js"></script></body></html>
